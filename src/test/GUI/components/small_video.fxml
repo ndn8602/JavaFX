@@ -11,68 +11,64 @@
    <children>
       <ImageView fitHeight="238.0" fitWidth="448.0" layoutX="37.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../images_Hieu/smallvideo.png" />
+            <Image url="@../../../image/smallvideo.png" />
          </image>
       </ImageView>
       <Pane layoutX="38.0" layoutY="179.0" prefHeight="82.0" prefWidth="417.0">
          <children>
             <ImageView fitHeight="16.0" fitWidth="13.0" layoutX="20.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../images_Hieu/ico-play.png" />
+                  <Image url="@../../../image/ico-play.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="16.0" fitWidth="417.0" layoutX="1.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../images_Hieu/timeline.png" />
+                  <Image url="@../../../image/timeline.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="12.0" fitWidth="12.0" layoutX="50.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../images_Hieu/ico-next.png" />
+                  <Image url="@../../../image/ico-next.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="16.0" fitWidth="13.25" layoutX="79.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../images_Hieu/ico-sound.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="20.0" fitWidth="54.0" layoutX="112.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../../images_Hieu/time.png" />
+                  <Image url="@../../../image/ico-sound.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="14.0" fitWidth="18.0" layoutX="208.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../images_Hieu/ico-titles.png" />
+                  <Image url="@../../../image/ico-titles.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="16.0" fitWidth="20.0" layoutX="249.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../images_Hieu/ico-gear.png" />
+                  <Image url="@../../../image/ico-gear.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="14.0" fitWidth="20.0" layoutX="289.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../images_Hieu/ico-theater.png" />
+                  <Image url="@../../../image/ico-theater.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="18.0" fitWidth="22.0" layoutX="334.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../images_Hieu/ico-tv.png" />
+                  <Image url="@../../../image/ico-tv.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="379.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../images_Hieu/ico-fullscreen.png" />
+                  <Image url="@../../../image/ico-fullscreen.png" />
                </image>
             </ImageView>
+            <Text fill="WHITE" layoutX="110.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5:07 / 15:28" wrappingWidth="84.13671875" />
          </children>
       </Pane>
       <Pane layoutX="37.0" layoutY="23.0" prefHeight="55.0" prefWidth="424.0">
          <children>
             <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="391.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../images_Hieu/ico-info.png" />
+                  <Image url="@../../../image/ico-info.png" />
                </image>
             </ImageView>
             <Text fill="WHITE" layoutX="17.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blind Woodturner: Turning passion into fine art" wrappingWidth="326.26690673828125">
