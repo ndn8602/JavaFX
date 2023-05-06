@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="286.0" prefWidth="1200.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="238.0" fitWidth="448.0" layoutX="37.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images_Hieu/smallvideo.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="38.0" layoutY="179.0" prefHeight="82.0" prefWidth="417.0">
+         <children>
+            <ImageView fitHeight="16.0" fitWidth="13.0" layoutX="20.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images_Hieu/ico-play.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="16.0" fitWidth="417.0" layoutX="1.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images_Hieu/timeline.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="12.0" fitWidth="12.0" layoutX="50.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images_Hieu/ico-next.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="16.0" fitWidth="13.25" layoutX="79.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images_Hieu/ico-sound.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="54.0" layoutX="112.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images_Hieu/time.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="14.0" fitWidth="18.0" layoutX="208.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images_Hieu/ico-titles.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="16.0" fitWidth="20.0" layoutX="249.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images_Hieu/ico-gear.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="14.0" fitWidth="20.0" layoutX="289.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images_Hieu/ico-theater.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="18.0" fitWidth="22.0" layoutX="334.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images_Hieu/ico-tv.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="379.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images_Hieu/ico-fullscreen.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="37.0" layoutY="23.0" prefHeight="55.0" prefWidth="424.0">
+         <children>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="391.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images_Hieu/ico-info.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="17.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blind Woodturner: Turning passion into fine art" wrappingWidth="326.26690673828125">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="476.0" layoutY="24.0" prefHeight="238.0" prefWidth="402.0">
+         <children>
+            <Text fill="WHITE" layoutX="11.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blind Woodturner: Turning passion into fine art" wrappingWidth="380.80340576171875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#aaaaaa" layoutX="14.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="576,969 views . 3 weeks ago" wrappingWidth="172.80340576171875" />
+            <Text fill="WHITE" layoutX="11.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chris Fisher, also known as the Blind Woodturner, learned his craft by listening to hundreds of hours of YouTube videos and experimenting in his workshop. Now he’s a YouTube creator himself, sells his products worldwide, and does demonstrations all around the country." wrappingWidth="380.80340576171875">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
