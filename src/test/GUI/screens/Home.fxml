@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="1065.0" prefWidth="1444.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane id="AnchorPane" layoutY="-1.0" prefHeight="57.0" prefWidth="1445.0" style="-fx-background-color: #212121;">
+         <children>
+            <ImageView fitHeight="56.0" fitWidth="120.0" layoutX="56.0" layoutY="1.0">
+               <image>
+                  <Image url="@../../../image/Logo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="16.0" layoutY="10.0">
+               <image>
+                  <Image url="@../../../image/icon.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="525.0" layoutY="9.0" prefHeight="40.0" prefWidth="426.0" style="-fx-background-color: #121212;">
+               <children>
+                  <Text fill="#eeeeee" layoutX="26.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Pane layoutX="362.0" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #303030;">
+                     <children>
+                        <ImageView layoutX="20.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../image/search.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="969.0" layoutY="9.0" prefHeight="40.0" prefWidth="40.0" style="-fx-border-radius: 50; -fx-background-color: #000000;">
+               <children>
+                  <ImageView layoutX="13.0" layoutY="11.0">
+                     <image>
+                        <Image url="@../../../image/Group.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="1203.0" layoutY="9.0" prefHeight="40.0" prefWidth="204.0">
+               <children>
+                  <ImageView layoutX="9.0">
+                     <image>
+                        <Image url="@../../../image/Create.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView layoutX="74.0" layoutY="8.0">
+                     <image>
+                        <Image url="@../../../image/apps.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView layoutX="122.0">
+                     <image>
+                        <Image url="@../../../image/Notifications.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView layoutX="175.0" layoutY="1.0">
+                     <image>
+                        <Image url="@../../../image/User-Avatar.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <ScrollPane layoutX="-1.5" layoutY="55.0">
+         <content>
+            <AnchorPane id="AnchorPane" prefHeight="1007.0" prefWidth="240.0" style="-fx-background-color: #212121;">
+               <children>
+                  <Pane layoutY="14.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #303030;">
+                     <children>
+                        <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../image/home.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="54.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Explore" />
+                        <ImageView layoutX="14.0" layoutY="9.0">
+                           <image>
+                              <Image url="@../../../../image/explore.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="94.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subscriptions" />
+                        <ImageView layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../../image/subscriptions.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Line endX="100.0" layoutX="119.0" layoutY="146.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+                  <Pane layoutY="158.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Library" />
+                        <ImageView layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../../image/library.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="198.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="History" />
+                        <ImageView layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../../image/history.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="238.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Videos" />
+                        <ImageView layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../../image/yourVideos.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="278.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Watch Later" />
+                        <ImageView layoutX="13.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../../image/watchLater.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="318.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lked Videos" />
+                        <ImageView layoutX="14.0" layoutY="7.0">
+                           <image>
+                              <Image url="@../../../../image/liked.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="358.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Show more" />
+                        <ImageView layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../image/arrowBottom.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Line endX="100.0" layoutX="121.0" layoutY="410.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+                  <Pane layoutY="447.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                        <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../image/User-Avatar.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="487.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alan Cooper" />
+                        <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../image/User-Avatar.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="527.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="567.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alexis Sears" />
+                        <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../image/User-Avatar.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="607.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anna White" />
+                        <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../image/User-Avatar.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="647.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Show 10 more" />
+                        <ImageView layoutX="15.0" layoutY="9.0">
+                           <image>
+                              <Image url="@../../../image/arrowBottom.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Text fill="#f8f7f7" layoutX="14.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUBSCRIPTIONS">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Line endX="100.0" layoutX="121.0" layoutY="700.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+                  <Pane layoutY="737.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Youtube Premium" />
+                        <ImageView layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../../image/premium.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="777.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gaming" />
+                        <ImageView layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../../image/gaming.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="817.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Live" />
+                        <ImageView layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../../image/live.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Text fill="#f8f7f7" layoutX="14.0" layoutY="724.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MORE FROM YOUTUBE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Pane layoutY="857.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sports" />
+                        <ImageView layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../../image/sports.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Line endX="100.0" layoutX="121.0" layoutY="909.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+                  <Pane layoutY="923.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings" />
+                        <ImageView layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../../image/settings.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="957.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Report history" />
+                        <ImageView layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../../image/report.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="994.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help" />
+                        <ImageView layoutX="11.0" layoutY="10.0">
+                           <image>
+                              <Image url="@../../../../image/help.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="1028.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send feedback" />
+                        <Line endX="100.0" layoutX="118.0" layoutY="52.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+                        <ImageView layoutX="14.0" layoutY="8.0">
+                           <image>
+                              <Image url="@../../../../image/feedback.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Text fill="WHITE" layoutX="19.0" layoutY="1103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About" />
+                  <Text fill="WHITE" layoutX="66.0" layoutY="1103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press" />
+                  <Text fill="WHITE" layoutX="112.0" layoutY="1103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Copyright" />
+                  <Text fill="WHITE" layoutX="19.0" layoutY="1127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact us" />
+                  <Text fill="WHITE" layoutX="91.0" layoutY="1127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creators" />
+                  <Text fill="WHITE" layoutX="19.0" layoutY="1151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Terms" />
+                  <Text fill="WHITE" layoutX="64.0" layoutY="1151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Privacy" />
+                  <Text fill="WHITE" layoutX="118.0" layoutY="1151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Policy &amp; Safety" />
+                  <Text fill="WHITE" layoutX="18.0" layoutY="1182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© 2021 Google LLC" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="245.0" layoutY="106.0" prefHeight="957.0" prefWidth="1227.0">
+         <content>
+            <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="1388.0" prefWidth="1205.0" style="-fx-background-color: #000000;">
+               <children>
+                  <Pane layoutX="11.0" layoutY="16.0" prefHeight="247.0" prefWidth="1180.0">
+                     <children>
+                        <AnchorPane id="AnchorPane" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="300.0" layoutY="-1.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="601.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="903.0" layoutY="-2.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="15.0" layoutY="270.0" prefHeight="247.0" prefWidth="1180.0">
+                     <children>
+                        <AnchorPane id="AnchorPane" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="300.0" layoutY="-1.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="601.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="903.0" layoutY="-2.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="11.0" layoutY="526.0" prefHeight="247.0" prefWidth="1180.0">
+                     <children>
+                        <AnchorPane id="AnchorPane" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="300.0" layoutY="-1.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="601.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="903.0" layoutY="-2.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="11.0" layoutY="783.0" prefHeight="247.0" prefWidth="1180.0">
+                     <children>
+                        <AnchorPane id="AnchorPane" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="300.0" layoutY="-1.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="601.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="903.0" layoutY="-2.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="12.0" layoutY="1041.0" prefHeight="247.0" prefWidth="1180.0">
+                     <children>
+                        <AnchorPane id="AnchorPane" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="300.0" layoutY="-1.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="601.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="903.0" layoutY="-2.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="13.0" layoutY="1297.0" prefHeight="247.0" prefWidth="1180.0">
+                     <children>
+                        <AnchorPane id="AnchorPane" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="300.0" layoutY="-1.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="601.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutX="903.0" layoutY="-2.0" prefHeight="247.0" prefWidth="276.0">
+                           <children>
+                              <Pane prefHeight="155.0" prefWidth="276.0">
+                                 <children>
+                                    <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Images.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane layoutX="224.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#fffbfb" layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </content>
+      </ScrollPane>
+      <Pane layoutX="239.0" layoutY="56.0" prefHeight="53.0" prefWidth="1206.0" style="-fx-background-color: #212121;">
+         <children>
+            <Pane layoutX="27.0" layoutY="9.0" prefHeight="32.0" prefWidth="40.0" style="-fx-background-color: #fff; -fx-background-radius: 9999;">
+               <children>
+                  <Text layoutX="13.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All" />
+               </children>
+            </Pane>
+            <Pane layoutX="85.0" layoutY="11.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="160.0" layoutY="11.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="236.0" layoutY="11.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="312.0" layoutY="11.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="387.0" layoutY="11.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="463.0" layoutY="11.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="536.0" layoutY="11.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="611.0" layoutY="11.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="687.0" layoutY="11.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="763.0" layoutY="10.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="838.0" layoutY="10.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="914.0" layoutY="10.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="992.0" layoutY="11.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="1067.0" layoutY="11.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="1143.0" layoutY="11.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: #303030; -fx-background-radius: 9999; -fx-border-color: grey; -fx-border-radius: 9999;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
+               </children>
+            </Pane>
+            <Pane layoutX="1150.0" layoutY="4.0" prefHeight="48.0" prefWidth="56.0" style="-fx-background-color: rgba(33, 33, 33, 0.9);">
+               <children>
+                  <ImageView layoutX="16.0" layoutY="11.0" nodeOrientation="RIGHT_TO_LEFT" style="-fx-rotate: 270;">
+                     <image>
+                        <Image url="@../../../../image/arrowBottom.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
