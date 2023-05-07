@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="1024.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.GUI.screens.FXMLController">
+   <children>
+      <ScrollPane prefHeight="900.0" prefWidth="1441.0">
+         <content>
+            <AnchorPane id="AnchorPane" prefHeight="1189.0" prefWidth="1375.0" style="-fx-background-color: black;">
+               <children>
+                  <AnchorPane id="AnchorPane" prefHeight="57.0" prefWidth="1440.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <ImageView fitHeight="56.0" fitWidth="120.0" layoutX="67.0" layoutY="-1.0">
+                           <image>
+                              <Image url="@../../../image/Logo.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="40.0" fitWidth="41.0" layoutX="4.0" layoutY="6.0">
+                           <image>
+                              <Image url="@../../../image/icon.png" />
+                           </image>
+                        </ImageView>
+                        <Pane layoutX="389.0" layoutY="9.0" prefHeight="40.0" prefWidth="542.0" style="-fx-background-color: #121212;">
+                           <children>
+                              <Text fill="#eeeeee" layoutX="26.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Text>
+                              <Pane layoutX="479.0" layoutY="1.0" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #303030;">
+                                 <children>
+                                    <ImageView layoutX="20.0" layoutY="8.0">
+                                       <image>
+                                          <Image url="@../../../image/search.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="952.0" layoutY="12.0" prefHeight="40.0" prefWidth="40.0" style="-fx-border-radius: 50; -fx-background-color: #000000;">
+                           <children>
+                              <ImageView layoutX="13.0" layoutY="11.0">
+                                 <image>
+                                    <Image url="@../../../image/Group.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1189.0" layoutY="12.0" prefHeight="40.0" prefWidth="204.0">
+                           <children>
+                              <ImageView layoutX="9.0">
+                                 <image>
+                                    <Image url="@../../../image/Create.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView layoutX="74.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../image/apps.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView layoutX="122.0">
+                                 <image>
+                                    <Image url="@../../../image/Notifications.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView layoutX="175.0" layoutY="1.0">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+                  <Pane layoutX="58.0" layoutY="57.0" prefHeight="1151.0" prefWidth="664.0">
+                     <children>
+                        <AnchorPane id="AnchorPane" layoutY="48.0" prefHeight="455.0" prefWidth="640.0" style="-fx-background-color: #000000;">
+                           <children>
+                              <ImageView fitHeight="360.0" fitWidth="640.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/smallvideo.png" />
+                                 </image>
+                              </ImageView>
+                              <Pane layoutY="264.0" prefHeight="96.0" prefWidth="640.0">
+                                 <children>
+                                    <ImageView fitHeight="16.0" fitWidth="13.0" layoutX="29.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/ico-play.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="12.0" fitWidth="640.0" layoutX="70.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/ico-next.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="16.0" fitWidth="13.25" layoutX="102.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/ico-sound.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="14.0" fitWidth="18.0" layoutX="457.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/ico-titles.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="16.0" fitWidth="20.0" layoutX="495.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/ico-hd@2x.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="14.0" fitWidth="20.0" layoutX="528.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/ico-theater.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="18.0" fitWidth="22.0" layoutX="563.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/ico-tv.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="602.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/ico-fullscreen.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="135.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5:07 / 15:28" wrappingWidth="84.13671875" />
+                                    <ImageView fitHeight="5.0" fitWidth="640.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/timeline.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="14.0" prefHeight="82.0" prefWidth="640.0">
+                                 <children>
+                                    <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="604.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/ico-info.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="16.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blind Woodturner: Turning passion into fine art" wrappingWidth="326.26690673828125">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="360.0" prefHeight="95.0" prefWidth="640.0">
+                                 <children>
+                                    <Pane layoutY="20.0" prefHeight="26.0" prefWidth="379.0">
+                                       <children>
+                                          <Text fill="WHITE" layoutX="1.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blind Woodturner: Turning passion into fine art">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutY="46.0" prefHeight="40.0" prefWidth="640.0">
+                                       <children>
+                                          <Text fill="#aaaaaa" layoutX="1.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="576,969 views . Oct 8, 2021" />
+                                          <ImageView fitHeight="40.0" fitWidth="36.0" layoutX="604.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/....png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="525.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Save-icon.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="431.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/Share-icon.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="358.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/DisLiked.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="270.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/liked.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Text fill="WHITE" layoutX="304.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.7 K">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </Text>
+                                          <Text fill="WHITE" layoutX="391.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="632">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </Text>
+                                          <Text fill="WHITE" layoutX="463.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SHARE">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </Text>
+                                          <Text fill="WHITE" layoutX="556.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SAVE">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane id="AnchorPane" layoutY="505.0" prefHeight="166.0" prefWidth="640.0" style="-fx-background-color: #000000;">
+                           <children>
+                              <Pane id="Video-Desc" prefHeight="165.0" prefWidth="640.0">
+                                 <children>
+                                    <Pane prefHeight="67.0" prefWidth="640.0">
+                                       <children>
+                                          <Pane layoutY="16.0" prefHeight="51.0" prefWidth="640.0">
+                                             <children>
+                                                <Pane layoutX="-2.0" layoutY="-1.0" prefHeight="51.0" prefWidth="64.0">
+                                                   <children>
+                                                      <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="6.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@../../../image/User-Avatar(Video-Desc).png" />
+                                                         </image>
+                                                      </ImageView>
+                                                   </children>
+                                                </Pane>
+                                                <Pane layoutX="64.0" prefHeight="51.0" prefWidth="93.0">
+                                                   <children>
+                                                      <Text fill="WHITE" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin">
+                                                         <font>
+                                                            <Font size="14.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <Text fill="#aaaaaa" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.2M subscribers" />
+                                                   </children>
+                                                </Pane>
+                                                <Pane layoutX="516.0" prefHeight="51.0" prefWidth="124.0">
+                                                   <children>
+                                                      <Pane layoutX="4.0" layoutY="7.0" prefHeight="36.0" prefWidth="116.0" style="-fx-background-color: #CC0000;">
+                                                         <children>
+                                                            <Text fill="WHITE" layoutX="15.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subscribes">
+                                                               <font>
+                                                                  <Font name="System Bold" size="18.0" />
+                                                               </font>
+                                                            </Text>
+                                                         </children>
+                                                      </Pane>
+                                                   </children>
+                                                </Pane>
+                                             </children>
+                                          </Pane>
+                                          <Pane layoutY="67.0" prefHeight="60.0" prefWidth="640.0">
+                                             <children>
+                                                <Text fill="WHITE" layoutX="65.0" layoutY="21.0" text="Chris Fisher, also known as the Blind Woodturner, learned his craft by listening to hundreds of hours of YouTube videos and experimenting in his workshop. Now he’s a YouTube creator himself, sells his products worldwide, and does demonstrations all around the country." wrappingWidth="572.0">
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </Text>
+                                             </children>
+                                          </Pane>
+                                          <Pane layoutY="127.0" prefHeight="22.0" prefWidth="640.0">
+                                             <children>
+                                                <Text fill="#aaaaaa" layoutX="65.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SHOW MORE">
+                                                   <font>
+                                                      <Font name="System Bold" size="12.0" />
+                                                   </font>
+                                                </Text>
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="165.0" prefHeight="1.0" prefWidth="640.0">
+                                 <children>
+                                    <Pane prefHeight="2.0" prefWidth="640.0" style="-fx-background-color: gray;" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </AnchorPane>
+                        <Pane layoutY="503.0" prefHeight="2.0" prefWidth="640.0" style="-fx-background-color: gray;" />
+                        <Text fill="WHITE" layoutX="16.0" layoutY="708.0" strokeType="OUTSIDE" strokeWidth="0.0" text="369 Comments">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="220.0" layoutY="691.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../image/Dropdown.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="261.0" layoutY="707.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SORT BY">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Pane layoutX="65.0" layoutY="794.0" prefHeight="2.0" prefWidth="579.0" style="-fx-background-color: gray;" />
+                        <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="16.0" layoutY="751.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../image/USA1.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="#aaaaaa" layoutX="78.0" layoutY="780.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add a public comment">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Pane layoutX="12.0" layoutY="814.0" prefHeight="103.0" prefWidth="640.0">
+                           <children>
+                              <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="6.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar(Video-Desc).png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="WHITE" layoutX="64.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#aaaaaa" layoutX="159.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8 hours ago">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="64.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank for everybody watching video">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="78.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/liked.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="122.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/DisLiked.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="WHITE" layoutX="103.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="12.0" layoutY="934.0" prefHeight="103.0" prefWidth="640.0">
+                           <children>
+                              <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="6.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/USA3.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="WHITE" layoutX="64.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mike Cir">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#aaaaaa" layoutX="131.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8 hours ago">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="64.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="78.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/liked.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="122.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/DisLiked.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="12.0" layoutY="1048.0" prefHeight="103.0" prefWidth="640.0">
+                           <children>
+                              <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="6.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="WHITE" layoutX="64.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ASHLEY ZO">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#aaaaaa" layoutX="152.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4 days ago">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="64.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your work so good, thank man">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="78.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/liked.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="122.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/DisLiked.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <AnchorPane id="AnchorPane" layoutX="845.0" layoutY="97.0" prefHeight="999.0" prefWidth="427.0" style="-fx-background-color: #000000;">
+                     <children>
+                        <Pane layoutY="72.0" prefHeight="1059.0" prefWidth="427.0" style="-fx-background-color: #000000;">
+                           <children>
+                              <Text fill="WHITE" layoutX="126.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" />
+                              <Text fill="WHITE" layoutX="129.0" layoutY="502.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" />
+                              <Pane layoutY="965.0" prefHeight="94.0" prefWidth="427.0">
+                                 <children>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/titok.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="131.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" textAlignment="CENTER" />
+                                    <Text fill="WHITE" layoutX="185.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Make tiktok video" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mark" />
+                                    <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 1 years ago" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="865.0" prefHeight="94.0" prefWidth="427.0">
+                                 <children>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/twitter.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="131.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" textAlignment="CENTER" />
+                                    <Text fill="WHITE" layoutX="185.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Twitter will delete 1.5 billion accounts to free up space" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Twitter" />
+                                    <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="500K views . 1 years ago" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="765.0" prefHeight="94.0" prefWidth="427.0">
+                                 <children>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/N.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="131.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" textAlignment="CENTER" />
+                                    <Text fill="WHITE" layoutX="185.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Best movies this month" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Netflix channel" />
+                                    <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="800K views . 3 years ago" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="665.0" prefHeight="94.0" prefWidth="427.0">
+                                 <children>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/discode.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="131.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" textAlignment="CENTER" />
+                                    <Text fill="WHITE" layoutX="185.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How to mute ?" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discord" />
+                                    <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 5 months ago" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="564.0" prefHeight="94.0" prefWidth="427.0">
+                                 <children>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/sportify.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="131.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" textAlignment="CENTER" />
+                                    <Text fill="WHITE" layoutX="185.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tutorial" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Spotify" />
+                                    <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10M views . 1 years ago" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="458.0" prefHeight="94.0" prefWidth="427.0">
+                                 <children>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/T.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="131.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" textAlignment="CENTER" />
+                                    <Text fill="WHITE" layoutX="185.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
+                                    <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2M views . 3 years ago" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="446.0" prefHeight="5.0" prefWidth="427.0" style="-fx-background-color: gray;" />
+                              <Text fill="WHITE" layoutX="6.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NEXT VIDEO">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Pane layoutY="24.0" prefHeight="94.0" prefWidth="427.0">
+                                 <children>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="-9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/insta.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="131.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" textAlignment="CENTER" />
+                                    <Text fill="WHITE" layoutX="185.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cooper" />
+                                    <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="6.0" layoutY="207.0" prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="231.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/BanAd.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                              <Text fill="WHITE" layoutX="6.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADVERTISEMENT">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="214.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deploy Clean Code consistently" wrappingWidth="204.00000000000023">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="214.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maximum security protection with early vulnerability detection and taint analysis." wrappingWidth="204.00000000000023">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="40.0" fitWidth="36.0" layoutX="143.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/....png" />
+                                 </image>
+                              </ImageView>
+                              <Pane layoutX="6.0" layoutY="414.0" prefHeight="26.0" prefWidth="204.0" style="-fx-background-color: #E1F6FF; -fx-background-radius: 10;">
+                                 <children>
+                                    <Text fill="#6196d7" layoutX="7.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go website : sonarsource.com">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Text fill="WHITE" layoutX="214.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Video sponsored by Sonarqube" wrappingWidth="204.00000000000023">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </Pane>
+                        <TextField layoutX="-2.0" layoutY="20.0" prefHeight="25.0" prefWidth="33.0" style="-fx-background-color: white;" text="All" />
+                        <TextField layoutX="41.0" layoutY="20.0" prefHeight="25.0" prefWidth="116.0" style="-fx-background-color: gray;" text="From Macus Levin" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
