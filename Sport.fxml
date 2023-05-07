@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="1024.0" prefWidth="1440.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" layoutX="209.0" layoutY="623.0" prefHeight="336.0" prefWidth="1220.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="55.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/youtube.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="59.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HIGHLIGHTS | Arsenal vs. Wolfsburg (UEFA Women's..." wrappingWidth="209.99999999999977">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#aaaaaa" layoutX="59.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DAZN UEFA Women's Champions..." />
+      <Text fill="#aaaaaa" layoutX="59.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="329K views . 1 month ago" />
+      <ImageView fitHeight="1.0" fitWidth="1070.0" layoutX="65.0" layoutY="288.0">
+         <image>
+            <Image url="@../../../image/Border.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="284.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/insta.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="517.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/titok.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="747.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/N.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="978.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/twitter.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="242.0" layoutY="168.0">
+         <image>
+            <Image url="@../../../image/VideoTime.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="662.0" layoutY="168.0">
+         <image>
+            <Image url="@../../../image/VideoTime.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="452.0" layoutY="168.0">
+         <image>
+            <Image url="@../../../image/VideoTime.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="1082.0" layoutY="168.0">
+         <image>
+            <Image url="@../../../image/VideoTime.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="872.0" layoutY="168.0">
+         <image>
+            <Image url="@../../../image/VideoTime.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="286.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HIGHLIGHTS | Arsenal vs. Wolfsburg (UEFA Women's..." wrappingWidth="209.99999999999977">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#aaaaaa" layoutX="285.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DAZN UEFA Women's Champions..." />
+      <Text fill="#aaaaaa" layoutX="286.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="329K views . 1 month ago" />
+      <Text fill="WHITE" layoutX="516.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HIGHLIGHTS | Arsenal vs. Wolfsburg (UEFA Women's..." wrappingWidth="209.99999999999977">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#aaaaaa" layoutX="517.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DAZN UEFA Women's Champions..." />
+      <Text fill="#aaaaaa" layoutX="517.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="329K views . 1 month ago" />
+      <Text fill="WHITE" layoutX="748.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HIGHLIGHTS | Arsenal vs. Wolfsburg (UEFA Women's..." wrappingWidth="209.99999999999977">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#aaaaaa" layoutX="750.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DAZN UEFA Women's Champions..." />
+      <Text fill="#aaaaaa" layoutX="750.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="329K views . 1 month ago" />
+      <Text fill="WHITE" layoutX="979.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HIGHLIGHTS | Arsenal vs. Wolfsburg (UEFA Women's..." wrappingWidth="240.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#aaaaaa" layoutX="978.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DAZN UEFA Women's Champions..." wrappingWidth="197.0303955078125" />
+      <Text fill="#aaaaaa" layoutX="980.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="329K views . 1 month ago" />
+      <ImageView fitHeight="1.0" fitWidth="1071.0" layoutX="64.0" layoutY="1.0" style="-fx-image: black;">
+         <image>
+            <Image url="@../../../image/Border.png" />
+         </image>
+      </ImageView>
+         <Text fill="#f7f7f7" layoutX="59.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DAZN UEFA Women's Champions League" wrappingWidth="441.9999999999998">
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Text>
+         <Line endX="416.9000244140625" layoutX="779.0" layoutY="8.0" startX="-718.2999877929688" stroke="#a9a0a0" strokeMiterLimit="1.0" strokeWidth="2.0" />
+         <Line endX="422.699951171875" layoutX="782.0" layoutY="330.0" startX="-720.5" stroke="#a9a0a0" strokeMiterLimit="1.0" strokeWidth="2.0" />
+         <Text fill="#1881c7" layoutX="1143.0" layoutY="42.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="10.0" text="Xem tất cả" wrappingWidth="74.9296875" />
+   </children>
+</AnchorPane>
+   <AnchorPane id="AnchorPane" layoutX="209.0" layoutY="921.0" prefHeight="336.0" prefWidth="1220.0" style="-fx-background-color: black;">
+      <children>
+         <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="55.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../image/youtube.png" />
+            </image>
+         </ImageView>
+         <Text fill="WHITE" layoutX="59.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HIGHLIGHTS | Arsenal vs. Wolfsburg (UEFA Women's..." wrappingWidth="209.99999999999977">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font>
+         </Text>
+         <Text fill="#aaaaaa" layoutX="59.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DAZN UEFA Women's Champions..." />
+         <Text fill="#aaaaaa" layoutX="59.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="329K views . 1 month ago" />
+         <ImageView fitHeight="1.0" fitWidth="1070.0" layoutX="65.0" layoutY="288.0">
+            <image>
+               <Image url="@../../../image/Border.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="284.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../image/insta.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="517.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../image/titok.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="747.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../image/N.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="129.0" fitWidth="224.0" layoutX="978.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../image/twitter.png" />
+            </image>
+         </ImageView>
+         <ImageView layoutX="242.0" layoutY="168.0">
+            <image>
+               <Image url="@../../../image/VideoTime.png" />
+            </image>
+         </ImageView>
+         <ImageView layoutX="662.0" layoutY="168.0">
+            <image>
+               <Image url="@../../../image/VideoTime.png" />
+            </image>
+         </ImageView>
+         <ImageView layoutX="452.0" layoutY="168.0">
+            <image>
+               <Image url="@../../../image/VideoTime.png" />
+            </image>
+         </ImageView>
+         <ImageView layoutX="1082.0" layoutY="168.0">
+            <image>
+               <Image url="@../../../image/VideoTime.png" />
+            </image>
+         </ImageView>
+         <ImageView layoutX="872.0" layoutY="168.0">
+            <image>
+               <Image url="@../../../image/VideoTime.png" />
+            </image>
+         </ImageView>
+         <Text fill="WHITE" layoutX="286.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HIGHLIGHTS | Arsenal vs. Wolfsburg (UEFA Women's..." wrappingWidth="209.99999999999977">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font>
+         </Text>
+         <Text fill="#aaaaaa" layoutX="285.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DAZN UEFA Women's Champions..." />
+         <Text fill="#aaaaaa" layoutX="286.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="329K views . 1 month ago" />
+         <Text fill="WHITE" layoutX="516.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HIGHLIGHTS | Arsenal vs. Wolfsburg (UEFA Women's..." wrappingWidth="209.99999999999977">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font>
+         </Text>
+         <Text fill="#aaaaaa" layoutX="517.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DAZN UEFA Women's Champions..." />
+         <Text fill="#aaaaaa" layoutX="517.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="329K views . 1 month ago" />
+         <Text fill="WHITE" layoutX="748.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HIGHLIGHTS | Arsenal vs. Wolfsburg (UEFA Women's..." wrappingWidth="209.99999999999977">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font>
+         </Text>
+         <Text fill="#aaaaaa" layoutX="750.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DAZN UEFA Women's Champions..." />
+         <Text fill="#aaaaaa" layoutX="750.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="329K views . 1 month ago" />
+         <Text fill="WHITE" layoutX="979.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HIGHLIGHTS | Arsenal vs. Wolfsburg (UEFA Women's..." wrappingWidth="240.0">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font>
+         </Text>
+         <Text fill="#aaaaaa" layoutX="978.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DAZN UEFA Women's Champions..." wrappingWidth="197.0303955078125" />
+         <Text fill="#aaaaaa" layoutX="980.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="329K views . 1 month ago" />
+         <ImageView fitHeight="1.0" fitWidth="1071.0" layoutX="64.0" layoutY="1.0" style="-fx-image: black;">
+            <image>
+               <Image url="@../../../image/Border.png" />
+            </image>
+         </ImageView>
+         <Line endX="422.699951171875" layoutX="782.0" layoutY="330.0" startX="-720.5" stroke="#a9a0a0" strokeMiterLimit="1.0" strokeWidth="2.0" />
+         <Text fill="#1881c7" layoutX="1143.0" layoutY="42.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="10.0" text="Xem tất cả" wrappingWidth="74.9296875" />
+      </children>
+   </AnchorPane>    
+<AnchorPane id="AnchorPane" prefHeight="56.0" prefWidth="1440.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="56.0" fitWidth="120.0" layoutX="56.0" layoutY="1.0">
+         <image>
+            <Image url="@../../../image/Logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="16.0" layoutY="10.0">
+         <image>
+            <Image url="@../../../image/icon.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="525.0" layoutY="9.0" prefHeight="40.0" prefWidth="426.0" style="-fx-background-color: #121212;">
+         <children>
+            <Text fill="#eeeeee" layoutX="26.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Pane layoutX="362.0" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #303030;">
+               <children>
+                  <ImageView layoutX="20.0" layoutY="8.0">
+                     <image>
+                        <Image url="@../../../image/search.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="969.0" layoutY="9.0" prefHeight="40.0" prefWidth="40.0" style="-fx-border-radius: 50; -fx-background-color: #000000;">
+         <children>
+            <ImageView layoutX="13.0" layoutY="11.0">
+               <image>
+                  <Image url="@../../../image/Group.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="1203.0" layoutY="9.0" prefHeight="40.0" prefWidth="204.0">
+         <children>
+            <ImageView layoutX="9.0">
+               <image>
+                  <Image url="@../../../image/Create.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="74.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../image/apps.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="122.0">
+               <image>
+                  <Image url="@../../../image/Notifications.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="175.0" layoutY="1.0">
+               <image>
+                  <Image url="@../../../image/User-Avatar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>    
+<AnchorPane id="AnchorPane" layoutY="56.0" prefHeight="1200.0" prefWidth="240.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutY="14.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #303030;">
+         <children>
+            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../image/home.png" />
+               </image>
+            </ImageView>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" />
+         </children>
+      </Pane>
+      <Pane layoutY="54.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Explore" />
+            <ImageView layoutX="14.0" layoutY="9.0">
+               <image>
+                  <Image url="@../../../../image/explore.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="94.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subscriptions" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/subscriptions.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Line endX="100.0" layoutX="119.0" layoutY="146.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+      <Pane layoutY="158.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Library" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/library.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="198.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="History" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/history.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="238.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Videos" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/yourVideos.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="278.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Watch Later" />
+            <ImageView layoutX="13.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/watchLater.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="318.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lked Videos" />
+            <ImageView layoutX="14.0" layoutY="7.0">
+               <image>
+                  <Image url="@../../../../image/liked.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="358.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Show more" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../image/arrowBottom.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Line endX="100.0" layoutX="121.0" layoutY="410.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+      <Pane layoutY="447.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../image/User-Avatar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="487.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alan Cooper" />
+            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../image/User-Avatar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="527.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
+               <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+                  <image>
+                     <Image url="@../../../image/User-Avatar.png" />
+                  </image>
+               </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="567.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alexis Sears" />
+            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../image/User-Avatar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="607.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anna White" />
+            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../image/User-Avatar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="647.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Show 10 more" />
+            <ImageView layoutX="15.0" layoutY="9.0">
+               <image>
+                  <Image url="@../../../image/arrowBottom.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Text fill="#f8f7f7" layoutX="14.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUBSCRIPTIONS">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Line endX="100.0" layoutX="121.0" layoutY="700.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+      <Pane layoutY="737.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Youtube Premium" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/premium.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="777.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gaming" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/gaming.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="817.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Live" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/live.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Text fill="#f8f7f7" layoutX="14.0" layoutY="724.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MORE FROM YOUTUBE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Pane layoutY="857.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sports" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/sports.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Line endX="100.0" layoutX="121.0" layoutY="909.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+      <Pane layoutY="923.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/settings.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="957.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Report history" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/report.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="994.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help" />
+            <ImageView layoutX="11.0" layoutY="10.0">
+               <image>
+                  <Image url="@../../../../image/help.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="1028.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send feedback" />
+            <Line endX="100.0" layoutX="118.0" layoutY="52.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/feedback.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Text fill="WHITE" layoutX="19.0" layoutY="1103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About" />
+      <Text fill="WHITE" layoutX="66.0" layoutY="1103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press" />
+      <Text fill="WHITE" layoutX="112.0" layoutY="1103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Copyright" />
+      <Text fill="WHITE" layoutX="19.0" layoutY="1127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact us" />
+      <Text fill="WHITE" layoutX="91.0" layoutY="1127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creators" />
+      <Text fill="WHITE" layoutX="19.0" layoutY="1151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Terms" />
+      <Text fill="WHITE" layoutX="64.0" layoutY="1151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Privacy" />
+      <Text fill="WHITE" layoutX="118.0" layoutY="1151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Policy &amp; Safety" />
+      <Text fill="WHITE" layoutX="18.0" layoutY="1182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© 2021 Google LLC" />
+   </children>
+</AnchorPane>
+   <Pane layoutX="242.0" layoutY="524.0" prefHeight="80.0" prefWidth="1183.0" style="-fx-background-color: #595656;">
+      <children>
+         <ImageView fitHeight="67.0" fitWidth="66.0" layoutX="39.0" layoutY="8.0">
+            <image>
+               <Image url="@../../../image/User-Avatar(Video-Desc).png" />
+            </image>
+         </ImageView>
+         <Text fill="#f7f7f7" layoutX="124.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thể Thao" wrappingWidth="79.47656249999994">
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Text>
+         <Text fill="#aaaaaa" layoutX="125.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="75 tr người đăng ký" />
+      </children>
+   </Pane>
+   <ImageView fitHeight="459.0" fitWidth="780.0" layoutX="264.0" layoutY="65.0" opacity="0.16">
+      <image>
+         <Image url="@../../../../../../../Downloads/nửa-trái-banner.jpg" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="459.0" fitWidth="379.0" layoutX="1044.0" layoutY="64.0" opacity="0.35">
+      <image>
+         <Image url="@../../../../../../../Downloads/nửa-phải-banner.jpg" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="67.0" fitWidth="66.0" layoutX="283.0" layoutY="260.0">
+      <image>
+         <Image url="@../../../image/User-Avatar(Video-Desc).png" />
+      </image>
+   </ImageView>
+   <Text fill="#aaaaaa" layoutX="284.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kplus Sport 2 tr lượt xem 2 ngày trước ">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font>
+   </Text>
+   <Text fill="#f7f7f7" layoutX="284.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BRIGHTON - MAN UNITED | &quot;NGẠT THỞ&quot; TẠI THE AMEX,..." wrappingWidth="363.5999755859373">
+      <font>
+         <Font name="System Bold" size="24.0" />
+      </font>
+   </Text>    
+</AnchorPane>
