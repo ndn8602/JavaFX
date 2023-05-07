@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="56.0" prefWidth="1440.0" style="-fx-background-color: #212121;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+   <children>
+      <ImageView fitHeight="56.0" fitWidth="120.0" layoutX="56.0" layoutY="1.0">
+         <image>
+            <Image url="@../../../image/Logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="16.0" layoutY="10.0">
+         <image>
+            <Image url="@../../../image/icon.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="525.0" layoutY="9.0" prefHeight="40.0" prefWidth="426.0" style="-fx-background-color: #121212;">
+         <children>
+            <Text fill="#eeeeee" layoutX="26.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Pane layoutX="362.0" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #303030;">
+               <children>
+                  <ImageView layoutX="20.0" layoutY="8.0">
+                     <image>
+                        <Image url="@../../../image/search.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="969.0" layoutY="9.0" prefHeight="40.0" prefWidth="40.0" style="-fx-border-radius: 50; -fx-background-color: #000000;">
+         <children>
+            <ImageView layoutX="13.0" layoutY="11.0">
+               <image>
+                  <Image url="@../../../image/Group.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="1203.0" layoutY="9.0" prefHeight="40.0" prefWidth="204.0">
+         <children>
+            <ImageView layoutX="9.0">
+               <image>
+                  <Image url="@../../../image/Create.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="74.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../image/apps.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="122.0">
+               <image>
+                  <Image url="@../../../image/Notifications.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="175.0" layoutY="1.0">
+               <image>
+                  <Image url="@../../../image/User-Avatar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

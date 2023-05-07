@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="100.0" prefWidth="640.0" style="-fx-background-color: black;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+   <children>
+      <ImageView fitHeight="40.0" fitWidth="40.0">
+         <image>
+            <Image url="@../../../image/User-Avatar%20(2).png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="56.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse " wrappingWidth="86.8936538696289">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fill="#aaaaaa" layoutX="136.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" 8 hours ago" wrappingWidth="122.8936538696289" />
+      <Text fill="WHITE" layoutX="56.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wow, world is full of different skills " wrappingWidth="230.8936538696289">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="17.0" fitWidth="18.0" layoutX="66.0" layoutY="61.67">
+         <image>
+            <Image url="@../../../image/Vector.png" />
+         </image>
+      </ImageView>
+      <Text fill="#aaaaaa" layoutX="95.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" wrappingWidth="24.0" />
+      <ImageView fitHeight="17.0" fitWidth="18.0" layoutX="113.0" layoutY="60.67">
+         <image>
+            <Image url="@../../../image/Vector1.png" />
+         </image>
+      </ImageView>
+      <Text fill="#aaaaaa" layoutX="153.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REPLY" wrappingWidth="48.0" />
+   </children>
+</AnchorPane>
