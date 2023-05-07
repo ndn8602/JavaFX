@@ -22,73 +22,136 @@
       </Pane>
       <Pane layoutY="54.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/home.png" />
                </image>
             </ImageView>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Explore" />
+=======
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Explore" />
+            <ImageView layoutX="14.0" layoutY="9.0">
+               <image>
+                  <Image url="@../../../../image/explore.png" />
+               </image>
+            </ImageView>
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
          </children>
       </Pane>
       <Pane layoutY="94.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/home.png" />
                </image>
             </ImageView>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subscriptions" />
+=======
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subscriptions" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/subscriptions.png" />
+               </image>
+            </ImageView>
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
          </children>
       </Pane>
       <Line endX="100.0" layoutX="119.0" layoutY="146.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
       <Pane layoutY="158.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/home.png" />
                </image>
             </ImageView>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" />
+=======
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Library" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/library.png" />
+               </image>
+            </ImageView>
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
          </children>
       </Pane>
       <Pane layoutY="198.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/home.png" />
                </image>
             </ImageView>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Explore" />
+=======
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="History" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/history.png" />
+               </image>
+            </ImageView>
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
          </children>
       </Pane>
       <Pane layoutY="238.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/home.png" />
                </image>
             </ImageView>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subscriptions" />
+=======
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Videos" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/yourVideos.png" />
+               </image>
+            </ImageView>
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
          </children>
       </Pane>
       <Pane layoutY="278.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/home.png" />
                </image>
             </ImageView>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" />
+=======
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Watch Later" />
+            <ImageView layoutX="13.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/watchLater.png" />
+               </image>
+            </ImageView>
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
          </children>
       </Pane>
       <Pane layoutY="318.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/home.png" />
                </image>
             </ImageView>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Explore" />
+=======
+            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lked Videos" />
+            <ImageView layoutX="14.0" layoutY="7.0">
+               <image>
+                  <Image url="@../../../../image/liked.png" />
+               </image>
+            </ImageView>
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
          </children>
       </Pane>
       <Pane layoutY="358.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
@@ -125,11 +188,14 @@
       <Pane layoutY="527.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/User-Avatar.png" />
                </image>
             </ImageView>
+=======
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
          </children>
       </Pane>
       <Pane layoutY="567.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
@@ -171,9 +237,15 @@
       <Pane layoutY="737.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Youtube Premium" />
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/User-Avatar.png" />
+=======
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/premium.png" />
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
                </image>
             </ImageView>
          </children>
@@ -181,9 +253,15 @@
       <Pane layoutY="777.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gaming" />
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/User-Avatar.png" />
+=======
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/gaming.png" />
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
                </image>
             </ImageView>
          </children>
@@ -191,9 +269,15 @@
       <Pane layoutY="817.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Live" />
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/User-Avatar.png" />
+=======
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/live.png" />
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
                </image>
             </ImageView>
          </children>
@@ -206,9 +290,15 @@
       <Pane layoutY="857.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sports" />
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/User-Avatar.png" />
+=======
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/sports.png" />
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
                </image>
             </ImageView>
          </children>
@@ -217,9 +307,15 @@
       <Pane layoutY="923.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings" />
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/User-Avatar.png" />
+=======
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/settings.png" />
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
                </image>
             </ImageView>
          </children>
@@ -227,9 +323,15 @@
       <Pane layoutY="957.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Report history" />
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/User-Avatar.png" />
+=======
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/report.png" />
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
                </image>
             </ImageView>
          </children>
@@ -237,9 +339,15 @@
       <Pane layoutY="994.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help" />
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/User-Avatar.png" />
+=======
+            <ImageView layoutX="11.0" layoutY="10.0">
+               <image>
+                  <Image url="@../../../../image/help.png" />
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
                </image>
             </ImageView>
          </children>
@@ -247,12 +355,21 @@
       <Pane layoutY="1028.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
          <children>
             <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send feedback" />
+<<<<<<< HEAD
             <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../../image/User-Avatar.png" />
                </image>
             </ImageView>
             <Line endX="100.0" layoutX="118.0" layoutY="52.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+=======
+            <Line endX="100.0" layoutX="118.0" layoutY="52.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+            <ImageView layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../image/feedback.png" />
+               </image>
+            </ImageView>
+>>>>>>> 99651e6c3d42ba38db524b45f265e18ff9389332
          </children>
       </Pane>
       <Text fill="WHITE" layoutX="19.0" layoutY="1103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About" />
