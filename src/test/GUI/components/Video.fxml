@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="102.0" prefWidth="402.0" style="-fx-background-color: #000000;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+   <children>
+      <Pane layoutY="8.0" prefHeight="94.0" prefWidth="176.0">
+         <children>
+            <ImageView fitHeight="94.0" fitWidth="168.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/Images.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="131.0" layoutY="72.0" prefHeight="18.0" prefWidth="33.0" style="-fx-background-color: black;">
+               <children>
+                  <Text fill="WHITE" layoutX="2.0" layoutY="13.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="176.0" layoutY="8.0" prefHeight="94.0" prefWidth="225.0">
+         <children>
+            <Text fill="WHITE" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="200.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="176.0" layoutY="55.0" prefHeight="40.0" prefWidth="202.0">
+         <children>
+            <Text fill="#aaaaaa" layoutY="13.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+            <Text fill="#aaaaaa" layoutX="-1.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
