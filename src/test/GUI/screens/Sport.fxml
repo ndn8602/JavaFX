@@ -557,12 +557,12 @@
    </Pane>
    <ImageView fitHeight="459.0" fitWidth="780.0" layoutX="264.0" layoutY="65.0" opacity="0.16">
       <image>
-         <Image url="@../../../../../../../Downloads/nửa-trái-banner.jpg" />
+         <Image url="@../../../image/nửa-trái-banner.jpg" />
       </image>
    </ImageView>
    <ImageView fitHeight="459.0" fitWidth="379.0" layoutX="1044.0" layoutY="64.0" opacity="0.35">
       <image>
-         <Image url="@../../../../../../../Downloads/nửa-phải-banner.jpg" />
+         <Image url="@../../../image/nửa-phải-banner.jpg" />
       </image>
    </ImageView>
    <ImageView fitHeight="67.0" fitWidth="66.0" layoutX="283.0" layoutY="260.0">
