@@ -3,23 +3,14 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="194.0" prefWidth="210.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+
+<AnchorPane id="AnchorPane" prefHeight="194.0" prefWidth="210.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
    <children>
-      <ImageView fitHeight="118.0" fitWidth="210.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="194.0" fitWidth="210.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../image/Thumbnail-Images.png" />
+            <Image url="@../../../image/Xsmall-Video.png" />
          </image>
       </ImageView>
-      <Text layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte..." wrappingWidth="188.15625" />
-      <Pane layoutX="172.0" layoutY="99.0" prefHeight="18.0" prefWidth="33.0" style="-fx-background-color: black;">
-         <children>
-            <Text fill="WHITE" layoutX="2.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
-         </children>
-      </Pane>
-      <Text fill="GREY" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
-      <Text fill="GREY" layoutX="1.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="329K views . 1 month ago" />
    </children>
 </AnchorPane>

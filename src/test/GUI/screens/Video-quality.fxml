@@ -68,7 +68,7 @@
                   </ImageView>
                   <ImageView layoutX="175.0" layoutY="1.0">
                      <image>
-                        <Image url="@../../../image/User-Avatar.png" />
+                        <Image url="@../../../image/USA1.png" />
                      </image>
                   </ImageView>
                </children>
@@ -132,16 +132,56 @@
                               <Image url="@../../../image/timeline.png" />
                            </image>
                         </ImageView>
+                        <Pane layoutX="219.0" layoutY="20.0" prefHeight="24.0" prefWidth="200.0" style="-fx-background-color: black;">
+                           <children>
+                              <Text fill="WHITE" layoutX="40.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edited by Lucas6789">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="449.0" layoutY="85.0" prefHeight="3.0" prefWidth="30.0" style="-fx-background-color: red;" />
+                        <Pane layoutX="423.0" layoutY="-114.0" prefHeight="159.0" prefWidth="190.0" style="-fx-background-radius: 20; -fx-background-color: #6196d7;">
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="11.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" rotate="178.7">
+                                 <image>
+                                    <Image url="@../../../image/arrowBottom.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="WHITE" layoutX="36.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quality">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="14.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="720p" wrappingWidth="48.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="14.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="480p">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="14.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1080 p" wrappingWidth="48.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Pane layoutX="1.0" layoutY="72.0" prefHeight="2.0" prefWidth="186.0" style="-fx-background-color: red;" />
+                           </children>
+                        </Pane>
                      </children>
                   </Pane>
                   <Pane layoutY="14.0" prefHeight="82.0" prefWidth="640.0">
                      <children>
-                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="604.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="604.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../../../image/ico-info.png" />
                            </image>
                         </ImageView>
-                        <Text fill="WHITE" layoutX="16.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blind Woodturner: Turning passion into fine art" wrappingWidth="326.26690673828125">
+                        <Text fill="WHITE" layoutX="16.0" layoutY="12.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blind Woodturner: Turning passion into fine art" wrappingWidth="326.26690673828125">
                            <font>
                               <Font size="14.0" />
                            </font>
@@ -439,7 +479,7 @@
                               <Font size="18.0" />
                            </font>
                         </Text>
-                        <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mark" />
+                        <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
                         <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 1 years ago" />
                      </children>
                   </Pane>
@@ -456,7 +496,7 @@
                               <Font size="18.0" />
                            </font>
                         </Text>
-                        <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Twitter" />
+                        <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
                         <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="500K views . 1 years ago" />
                      </children>
                   </Pane>
@@ -473,7 +513,7 @@
                               <Font size="18.0" />
                            </font>
                         </Text>
-                        <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Netflix channel" />
+                        <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
                         <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="800K views . 3 years ago" />
                      </children>
                   </Pane>
@@ -490,7 +530,7 @@
                               <Font size="18.0" />
                            </font>
                         </Text>
-                        <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discord" />
+                        <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
                         <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 5 months ago" />
                      </children>
                   </Pane>
@@ -507,7 +547,7 @@
                               <Font size="18.0" />
                            </font>
                         </Text>
-                        <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Spotify" />
+                        <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
                         <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10M views . 1 years ago" />
                      </children>
                   </Pane>
@@ -519,7 +559,7 @@
                            </image>
                         </ImageView>
                         <Text fill="WHITE" layoutX="131.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" textAlignment="CENTER" />
-                        <Text fill="WHITE" layoutX="185.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                        <Text fill="WHITE" layoutX="185.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 4: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
                            <font>
                               <Font size="18.0" />
                            </font>
@@ -528,15 +568,9 @@
                         <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2M views . 3 years ago" />
                      </children>
                   </Pane>
-                  <Pane layoutY="446.0" prefHeight="5.0" prefWidth="427.0" style="-fx-background-color: gray;" />
-                  <Text fill="WHITE" layoutX="6.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NEXT VIDEO">
-                     <font>
-                        <Font name="System Bold" size="14.0" />
-                     </font>
-                  </Text>
-                  <Pane layoutY="24.0" prefHeight="94.0" prefWidth="427.0">
+                  <Pane layoutY="51.0" prefHeight="94.0" prefWidth="427.0">
                      <children>
-                        <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="-9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="94.0" fitWidth="168.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../../../image/insta.png" />
                            </image>
@@ -547,57 +581,70 @@
                               <Font size="18.0" />
                            </font>
                         </Text>
-                        <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cooper" />
+                        <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
                         <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
                      </children>
                   </Pane>
-                  <Pane layoutX="6.0" layoutY="207.0" prefHeight="200.0" prefWidth="200.0">
+                  <Pane layoutY="152.0" prefHeight="94.0" prefWidth="427.0">
                      <children>
-                        <ImageView fitHeight="231.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="94.0" fitWidth="168.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../image/BanAd.png" />
+                              <Image url="@../../../image/T.png" />
                            </image>
                         </ImageView>
+                        <Text fill="WHITE" layoutX="131.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" textAlignment="CENTER" />
+                        <Text fill="WHITE" layoutX="185.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 7: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
+                        <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2M views . 3 years ago" />
                      </children>
                   </Pane>
-                  <Text fill="WHITE" layoutX="6.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADVERTISEMENT">
-                     <font>
-                        <Font name="System Bold" size="16.0" />
-                     </font>
-                  </Text>
-                  <Text fill="WHITE" layoutX="214.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deploy Clean Code consistently" wrappingWidth="204.00000000000023">
-                     <font>
-                        <Font name="System Bold" size="16.0" />
-                     </font>
-                  </Text>
-                  <Text fill="WHITE" layoutX="214.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maximum security protection with early vulnerability detection and taint analysis." wrappingWidth="204.00000000000023">
-                     <font>
-                        <Font size="16.0" />
-                     </font>
-                  </Text>
-                  <ImageView fitHeight="40.0" fitWidth="36.0" layoutX="143.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../image/....png" />
-                     </image>
-                  </ImageView>
-                  <Pane layoutX="6.0" layoutY="414.0" prefHeight="26.0" prefWidth="204.0" style="-fx-background-color: #E1F6FF; -fx-background-radius: 10;">
+                  <Pane layoutY="219.0" prefHeight="94.0" prefWidth="427.0">
                      <children>
-                        <Text fill="#6196d7" layoutX="7.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go website : sonarsource.com">
+                        <ImageView fitHeight="94.0" fitWidth="168.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../image/T.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="131.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" textAlignment="CENTER" />
+                        <Text fill="WHITE" layoutX="186.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
                            <font>
-                              <Font name="System Bold" size="14.0" />
+                              <Font size="18.0" />
                            </font>
                         </Text>
                      </children>
                   </Pane>
-                  <Text fill="WHITE" layoutX="214.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Video sponsored by Sonarqube" wrappingWidth="204.00000000000023">
+                  <Pane layoutY="354.0" prefHeight="94.0" prefWidth="427.0">
+                     <children>
+                        <ImageView fitHeight="94.0" fitWidth="168.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../image/T.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="131.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" textAlignment="CENTER" />
+                        <Text fill="WHITE" layoutX="185.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 5: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="186.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
+                        <Text fill="WHITE" layoutX="186.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2M views . 3 years ago" />
+                     </children>
+                  </Pane>
+                  <Text fill="WHITE" layoutX="19.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLAY LISTS">
                      <font>
-                        <Font name="System Bold" size="16.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                   </Text>
+                  <Text fill="WHITE" layoutX="186.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2M views . 3 years ago" />
+                  <Text fill="WHITE" layoutX="186.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
                </children>
             </Pane>
-            <TextField layoutX="42.0" layoutY="20.0" prefHeight="25.0" prefWidth="124.0" style="-fx-background-color: #AAAAAA;" text="From Macus Levin" />
-            <TextField layoutX="-2.0" layoutY="20.0" prefHeight="25.0" prefWidth="33.0" style="-fx-background-color: white;" text="All" />
+            <TextField layoutX="42.0" layoutY="20.0" prefHeight="25.0" prefWidth="124.0" style="-fx-background-color: white;" text="From Macus Levin" />
+            <TextField layoutX="-2.0" layoutY="20.0" prefHeight="25.0" prefWidth="33.0" style="-fx-background-color: gray;" text="All" />
          </children>
       </AnchorPane>
    </children>

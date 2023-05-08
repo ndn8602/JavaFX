@@ -3,36 +3,13 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.text.Text?>
 
 <AnchorPane id="AnchorPane" prefHeight="247.0" prefWidth="276.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane prefHeight="155.0" prefWidth="276.0">
-         <children>
-            <AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="276.0">
-               <children>
-                  <ImageView fitHeight="155.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../image/Images.png" />
-                     </image>
-                  </ImageView>
-                  <Pane layoutX="228.0" layoutY="131.0" prefHeight="21.0" prefWidth="48.0" style="-fx-background-color: black;">
-                     <children>
-                        <Text fill="WHITE" layoutX="13.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" />
-                     </children>
-                  </Pane>
-               </children>
-            </AnchorPane>
-         </children>
-      </Pane>
-      <ImageView fitHeight="36.0" fitWidth="36.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="247.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../image/User-Avatar.png" />
+            <Image url="@../../../image/Thumbnail-Item.png" />
          </image>
       </ImageView>
-      <Text layoutX="43.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consecte adipiscing elit." wrappingWidth="211.13671875" />
-      <Text fill="GREY" layoutX="43.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
-      <Text fill="GREY" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15K Views .1 week ago" />
    </children>
 </AnchorPane>

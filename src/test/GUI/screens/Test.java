@@ -10,7 +10,7 @@ public class Test extends Application {
   
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("test.GUI.screens/Home.fxml"));
         primaryStage.setTitle("Youtobe");
         primaryStage.setScene(new Scene(root,1440,1932));
         primaryStage.show();
