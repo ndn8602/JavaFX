@@ -1,11 +1,221 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1">
-    
+
+<AnchorPane id="AnchorPane" prefHeight="934.0" prefWidth="1310.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+   <children>
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="742.0" prefWidth="606.0" style="-fx-background-color: black;">
+         <children>
+            <Pane layoutX="14.0" layoutY="125.0" prefHeight="115.0" prefWidth="305.0" style="-fx-background-color: white;">
+               <children>
+                  <Text layoutX="116.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Video" wrappingWidth="137.732421875">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutY="14.0" prefHeight="45.0" prefWidth="606.0" style="-fx-background-color: white;">
+               <children>
+                  <Icon content="HELP_OUTLINE" layoutX="47.0" layoutY="10.0" prefHeight="26.0" prefWidth="25.0" />
+                  <Icon content="HELP_OUTLINE" layoutX="14.0" layoutY="13.0" prefHeight="20.0" prefWidth="20.0" />
+                  <Icon content="HELP_OUTLINE" layoutX="422.0" layoutY="17.0" prefHeight="20.0" prefWidth="25.0" />
+                  <Icon content="HELP_OUTLINE" layoutX="472.0" layoutY="12.0" prefHeight="26.0" prefWidth="25.0" />
+                  <Icon content="HELP_OUTLINE" layoutX="510.0" layoutY="12.0" prefHeight="26.0" prefWidth="25.0" />
+                  <Icon content="HELP_OUTLINE" layoutX="548.0" layoutY="13.0" prefHeight="26.0" prefWidth="25.0" />
+                  <Icon content="HELP_OUTLINE" layoutX="375.0" layoutY="14.0" prefHeight="26.0" prefWidth="25.0" />
+                  <Pane layoutX="150.0" layoutY="1.0" prefHeight="40.0" prefWidth="219.0" style="-fx-background-color: gray;">
+                     <children>
+                        <Text layoutX="3.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thanh tìm kiếm" wrappingWidth="182.732421875">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Icon content="HELP_OUTLINE" layoutX="177.0" layoutY="7.0" prefHeight="26.0" prefWidth="25.0" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="387.0" layoutY="131.0" prefHeight="575.0" prefWidth="192.0" style="-fx-background-color: white;">
+               <children>
+                  <Text layoutX="27.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List video" wrappingWidth="137.732421875">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Text>
+                  <Pane layoutX="-47.0" layoutY="157.0" prefHeight="10.0" prefWidth="249.0" style="-fx-background-color: black;" />
+                  <Text layoutX="19.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Video tiếp theo" wrappingWidth="154.732421875">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Pane layoutX="-14.0" layoutY="84.0" prefHeight="10.0" prefWidth="209.0" style="-fx-background-color: black;" />
+                  <Text layoutX="27.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quảng cáo" wrappingWidth="137.732421875">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="13.0" layoutY="283.0" prefHeight="115.0" prefWidth="305.0" style="-fx-background-color: white;">
+               <children>
+                  <Text layoutX="14.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Channel name" wrappingWidth="109.732421875">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="14.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mô tả channel" wrappingWidth="109.732421875">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="213.0" layoutY="22.0" mnemonicParsing="false" text="Đăng ký" />
+               </children>
+            </Pane>
+            <Pane layoutX="14.0" layoutY="402.0" prefHeight="333.0" prefWidth="305.0" style="-fx-background-color: white;">
+               <children>
+                  <Text layoutX="84.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bình luận" wrappingWidth="137.732421875">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Text>
+                  <Pane layoutX="6.0" layoutY="100.0" prefHeight="53.0" prefWidth="299.0" style="-fx-background-color: white;">
+                     <children>
+                        <Icon content="HELP_OUTLINE" layoutX="13.0" layoutY="31.0" prefHeight="20.0" prefWidth="25.0" />
+                        <Icon content="HELP_OUTLINE" layoutX="47.0" layoutY="32.0" prefHeight="20.0" prefWidth="25.0" />
+                        <Text layoutX="9.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Người bình luận" wrappingWidth="80.732421875">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="10.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nội dung" wrappingWidth="80.732421875">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="93.0" layoutY="13.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thời gian" wrappingWidth="80.732421875">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                        </Text>
+                        <Icon content="HELP_OUTLINE" layoutX="133.0" layoutY="1.0" prefHeight="20.0" prefWidth="25.0" />
+                        <Icon content="HELP_OUTLINE" layoutX="-10.0" layoutY="-1.0" prefHeight="20.0" prefWidth="25.0" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="4.0" layoutY="182.0" prefHeight="53.0" prefWidth="291.0" style="-fx-background-color: white;">
+                     <children>
+                        <Icon content="HELP_OUTLINE" layoutX="13.0" layoutY="31.0" prefHeight="20.0" prefWidth="25.0" />
+                        <Icon content="HELP_OUTLINE" layoutX="47.0" layoutY="32.0" prefHeight="20.0" prefWidth="25.0" />
+                        <Text layoutX="9.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Người bình luận" wrappingWidth="80.732421875">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="10.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nội dung" wrappingWidth="80.732421875">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="93.0" layoutY="13.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thời gian" wrappingWidth="80.732421875">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                        </Text>
+                        <Icon content="HELP_OUTLINE" layoutX="-10.0" layoutY="1.0" prefHeight="20.0" prefWidth="25.0" />
+                     </children>
+                  </Pane>
+                  <Text layoutX="6.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tổng bình luận" wrappingWidth="80.732421875">
+                     <font>
+                        <Font name="System Bold" size="10.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="95.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sắp xếp" wrappingWidth="80.732421875">
+                     <font>
+                        <Font name="System Bold" size="10.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="249.0" prefHeight="29.0" prefWidth="309.0" style="-fx-background-color: white;">
+               <children>
+                  <Icon content="HELP_OUTLINE" layoutX="195.0" layoutY="12.0" prefHeight="20.0" prefWidth="25.0" />
+                  <Icon content="HELP_OUTLINE" layoutX="217.0" layoutY="12.0" prefHeight="20.0" prefWidth="25.0" />
+                  <Icon content="HELP_OUTLINE" layoutX="239.0" layoutY="12.0" prefHeight="20.0" prefWidth="25.0" />
+                  <Icon content="HELP_OUTLINE" layoutX="258.0" layoutY="11.0" prefHeight="20.0" prefWidth="25.0" />
+                  <Icon content="HELP_OUTLINE" layoutX="275.0" layoutY="13.0" prefHeight="20.0" prefWidth="25.0" />
+                  <Text layoutX="9.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tên video" wrappingWidth="80.732421875">
+                     <font>
+                        <Font name="System Bold" size="10.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="10.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lượt xem" wrappingWidth="80.732421875">
+                     <font>
+                        <Font name="System Bold" size="10.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="690.0" layoutY="14.0" prefHeight="742.0" prefWidth="606.0" style="-fx-background-color: black;">
+         <children>
+            <Pane layoutX="-2.0" layoutY="-5.0" prefHeight="346.0" prefWidth="611.0" style="-fx-background-color: white;">
+               <children>
+                  <Text layoutX="213.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Video" wrappingWidth="137.732421875">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Text>
+                  <Icon content="HELP_OUTLINE" layoutX="526.0" layoutY="25.0" prefHeight="40.0" prefWidth="45.0" />
+                  <Pane layoutX="-1.0" layoutY="277.0" prefHeight="45.0" prefWidth="613.0" style="-fx-background-color: white;">
+                     <children>
+                        <Icon content="HELP_OUTLINE" layoutX="47.0" layoutY="10.0" prefHeight="26.0" prefWidth="25.0" />
+                        <Icon content="HELP_OUTLINE" layoutX="14.0" layoutY="13.0" prefHeight="20.0" prefWidth="20.0" />
+                        <Icon content="HELP_OUTLINE" layoutX="422.0" layoutY="17.0" prefHeight="20.0" prefWidth="25.0" />
+                        <Icon content="HELP_OUTLINE" layoutX="472.0" layoutY="12.0" prefHeight="26.0" prefWidth="25.0" />
+                        <Icon content="HELP_OUTLINE" layoutX="510.0" layoutY="12.0" prefHeight="26.0" prefWidth="25.0" />
+                        <Icon content="HELP_OUTLINE" layoutX="548.0" layoutY="13.0" prefHeight="26.0" prefWidth="25.0" />
+                        <Icon content="HELP_OUTLINE" layoutX="98.0" layoutY="10.0" prefHeight="26.0" prefWidth="25.0" />
+                        <Text layoutX="158.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" wrappingWidth="118.732421875">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Icon content="HELP_OUTLINE" layoutX="394.0" layoutY="17.0" prefHeight="20.0" prefWidth="25.0" />
+                     </children>
+                  </Pane>
+                  <Text layoutX="28.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tên video" wrappingWidth="192.0">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Text>
+                  <Pane layoutX="6.0" layoutY="264.0" prefHeight="13.0" prefWidth="606.0" style="-fx-background-color: BLACK;">
+                     <children>
+                        <Text fill="WHITE" layoutX="110.0" layoutY="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thanh thời gian video" wrappingWidth="137.732421875">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="371.0" layoutY="113.0" prefHeight="142.0" prefWidth="200.0" style="-fx-background-color: black;">
+                     <children>
+                        <Text fill="WHITE" layoutX="9.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Các lựa chọn thiết lập video" wrappingWidth="182.732421875">
+                           <font>
+                              <Font name="System Bold" size="30.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
 </AnchorPane>
