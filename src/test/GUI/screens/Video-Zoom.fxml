@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="359.0" prefWidth="640.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="359.0" prefWidth="640.0" style="-fx-background-color: #000000;">
+         <children>
+            <ImageView fitHeight="360.0" fitWidth="640.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/smallvideo.png" />
+               </image>
+            </ImageView>
+            <Pane layoutY="264.0" prefHeight="96.0" prefWidth="640.0">
+               <children>
+                  <ImageView fitHeight="16.0" fitWidth="13.0" layoutX="29.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/ico-play.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="12.0" fitWidth="640.0" layoutX="70.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/ico-next.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="16.0" fitWidth="13.25" layoutX="102.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/ico-sound.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="14.0" fitWidth="18.0" layoutX="457.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/ico-titles.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="16.0" fitWidth="20.0" layoutX="495.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/ico-hd@2x.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="14.0" fitWidth="20.0" layoutX="528.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/ico-theater.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="18.0" fitWidth="22.0" layoutX="563.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/ico-tv.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="602.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/ico-fullscreen.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="135.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5:07 / 15:28" wrappingWidth="84.13671875" />
+                  <ImageView fitHeight="5.0" fitWidth="640.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/timeline.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="14.0" prefHeight="82.0" prefWidth="640.0">
+               <children>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="606.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/ico-info.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="6.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blind Woodturner: Turning passion into fine art" wrappingWidth="326.26690673828125">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -73,7 +73,7 @@
                               </ImageView>
                               <ImageView layoutX="175.0" layoutY="1.0">
                                  <image>
-                                    <Image url="@../../../image/User-Avatar.png" />
+                                    <Image url="@../../../image/USA1.png" />
                                  </image>
                               </ImageView>
                            </children>
@@ -84,75 +84,7 @@
                      <children>
                         <AnchorPane id="AnchorPane" layoutY="48.0" prefHeight="455.0" prefWidth="640.0" style="-fx-background-color: #000000;">
                            <children>
-                              <ImageView fitHeight="360.0" fitWidth="640.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../image/smallvideo.png" />
-                                 </image>
-                              </ImageView>
-                              <Pane layoutY="264.0" prefHeight="96.0" prefWidth="640.0">
-                                 <children>
-                                    <ImageView fitHeight="16.0" fitWidth="13.0" layoutX="29.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../../../image/ico-play.png" />
-                                       </image>
-                                    </ImageView>
-                                    <ImageView fitHeight="12.0" fitWidth="640.0" layoutX="70.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../../../image/ico-next.png" />
-                                       </image>
-                                    </ImageView>
-                                    <ImageView fitHeight="16.0" fitWidth="13.25" layoutX="102.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../../../image/ico-sound.png" />
-                                       </image>
-                                    </ImageView>
-                                    <ImageView fitHeight="14.0" fitWidth="18.0" layoutX="457.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../../../image/ico-titles.png" />
-                                       </image>
-                                    </ImageView>
-                                    <ImageView fitHeight="16.0" fitWidth="20.0" layoutX="495.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../../../image/ico-hd@2x.png" />
-                                       </image>
-                                    </ImageView>
-                                    <ImageView fitHeight="14.0" fitWidth="20.0" layoutX="528.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../../../image/ico-theater.png" />
-                                       </image>
-                                    </ImageView>
-                                    <ImageView fitHeight="18.0" fitWidth="22.0" layoutX="563.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../../../image/ico-tv.png" />
-                                       </image>
-                                    </ImageView>
-                                    <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="602.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../../../image/ico-fullscreen.png" />
-                                       </image>
-                                    </ImageView>
-                                    <Text fill="WHITE" layoutX="135.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5:07 / 15:28" wrappingWidth="84.13671875" />
-                                    <ImageView fitHeight="5.0" fitWidth="640.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../../../image/timeline.png" />
-                                       </image>
-                                    </ImageView>
-                                 </children>
-                              </Pane>
-                              <Pane layoutY="14.0" prefHeight="82.0" prefWidth="640.0">
-                                 <children>
-                                    <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="604.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../../../image/ico-info.png" />
-                                       </image>
-                                    </ImageView>
-                                    <Text fill="WHITE" layoutX="16.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blind Woodturner: Turning passion into fine art" wrappingWidth="326.26690673828125">
-                                       <font>
-                                          <Font size="14.0" />
-                                       </font>
-                                    </Text>
-                                 </children>
-                              </Pane>
+                              <Pane layoutY="14.0" prefHeight="82.0" prefWidth="640.0" />
                               <Pane layoutY="360.0" prefHeight="95.0" prefWidth="640.0">
                                  <children>
                                     <Pane layoutY="20.0" prefHeight="26.0" prefWidth="379.0">
@@ -212,6 +144,66 @@
                                                 <Font name="System Bold" size="14.0" />
                                              </font>
                                           </Text>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="1.0" prefHeight="372.0" prefWidth="1228.0">
+                                 <children>
+                                    <ImageView fitHeight="373.0" fitWidth="723.0" layoutX="300.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/Images.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="9.0" fitWidth="1264.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/timeline.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Pane layoutY="276.0" prefHeight="96.0" prefWidth="1228.0">
+                                       <children>
+                                          <ImageView fitHeight="16.0" fitWidth="13.0" layoutX="29.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/ico-play.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="12.0" fitWidth="640.0" layoutX="70.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/ico-next.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="16.0" fitWidth="13.25" layoutX="102.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/ico-sound.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="14.0" fitWidth="18.0" layoutX="1057.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/ico-titles.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="16.0" fitWidth="20.0" layoutX="1092.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/ico-hd@2x.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="14.0" fitWidth="20.0" layoutX="1123.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/ico-theater.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="18.0" fitWidth="22.0" layoutX="1157.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/ico-tv.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="1190.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../image/ico-fullscreen.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Text fill="WHITE" layoutX="135.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5:07 / 15:28" wrappingWidth="84.13671875" />
+                                          <Pane layoutX="1118.0" layoutY="62.0" prefHeight="30.0" prefWidth="30.0" style="-fx-border-color: blue;" />
                                        </children>
                                     </Pane>
                                  </children>
@@ -425,7 +417,7 @@
                         </Pane>
                      </children>
                   </Pane>
-                  <AnchorPane id="AnchorPane" layoutX="845.0" layoutY="97.0" prefHeight="999.0" prefWidth="427.0" style="-fx-background-color: #000000;">
+                  <AnchorPane id="AnchorPane" layoutX="845.0" layoutY="500.0" prefHeight="728.0" prefWidth="427.0" style="-fx-background-color: #000000;">
                      <children>
                         <Pane layoutY="72.0" prefHeight="1059.0" prefWidth="427.0" style="-fx-background-color: #000000;">
                            <children>
@@ -546,7 +538,7 @@
                                           <Image url="@../../../image/insta.png" />
                                        </image>
                                     </ImageView>
-                                    <Text fill="WHITE" layoutX="131.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" textAlignment="CENTER" />
+                                    <Text fill="WHITE" layoutX="124.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23:45" textAlignment="CENTER" />
                                     <Text fill="WHITE" layoutX="185.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
                                        <font>
                                           <Font size="18.0" />
@@ -602,7 +594,7 @@
                            </children>
                         </Pane>
                         <TextField layoutX="-2.0" layoutY="20.0" prefHeight="25.0" prefWidth="33.0" style="-fx-background-color: white;" text="All" />
-                        <TextField layoutX="41.0" layoutY="20.0" prefHeight="25.0" prefWidth="116.0" style="-fx-background-color: gray;" text="From Macus Levin" />
+                        <TextField id="ab" layoutX="41.0" layoutY="20.0" prefHeight="25.0" prefWidth="116.0" style="-fx-background-color: gray;" text="From Macus Levin" />
                      </children>
                   </AnchorPane>
                </children>
