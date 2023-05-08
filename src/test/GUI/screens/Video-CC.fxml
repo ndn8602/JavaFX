@@ -159,11 +159,6 @@
                                     <Font size="16.0" />
                                  </font>
                               </Text>
-                              <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="124.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../image/quality-button.png" />
-                                 </image>
-                              </ImageView>
                               <Text fill="WHITE" layoutX="14.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="English" wrappingWidth="48.0">
                                  <font>
                                     <Font size="14.0" />
