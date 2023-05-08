@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -8,9 +13,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="1463.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" fx:id="Trending" prefHeight="989.0" prefWidth="1453.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <AnchorPane id="AnchorPane" prefHeight="40.0" prefWidth="1440.0" style="-fx-background-color: #212121;">
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="9.0" prefHeight="57.0" prefWidth="1466.0" style="-fx-background-color: #212121;" translateX="-10.0" translateY="-8.0">
          <children>
             <ImageView fitHeight="56.0" fitWidth="120.0" layoutX="56.0" layoutY="1.0">
                <image>
@@ -24,7 +29,7 @@
             </ImageView>
             <Pane layoutX="525.0" layoutY="9.0" prefHeight="40.0" prefWidth="426.0" style="-fx-background-color: #121212;">
                <children>
-                  <Text fill="#eeeeee" layoutX="26.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search">
+                  <Text fill="#eeeeee" layoutX="26.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0">
                      <font>
                         <Font size="16.0" />
                      </font>
@@ -38,6 +43,11 @@
                         </ImageView>
                      </children>
                   </Pane>
+                  <TextField accessibleText=" " prefHeight="44.0" prefWidth="362.0" promptText="Search..." style="-fx-background-color: #212121; -fx-border-width: 1; -fx-border-color: #777777;" styleClass="fieldTextSearch" stylesheets="@style.css">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
                </children>
             </Pane>
             <Pane layoutX="969.0" layoutY="9.0" prefHeight="40.0" prefWidth="40.0" style="-fx-border-radius: 50; -fx-background-color: #000000;">
@@ -75,235 +85,723 @@
             </Pane>
          </children>
       </AnchorPane>
-      <Pane layoutX="1213.0" layoutY="19.0" prefHeight="40.0" prefWidth="204.0" />
-      <AnchorPane id="AnchorPane" layoutY="57.0" prefHeight="1047.0" prefWidth="240.0" style="-fx-background-color: #212121;">
-         <children>
-            <Text fill="#f8f7f7" layoutX="14.0" layoutY="724.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MORE FROM YOUTUBE">
-               <font>
-                  <Font name="System Bold" size="14.0" />
-               </font>
-            </Text>
-            <Pane layoutY="28.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+      <ScrollPane layoutX="10.0" layoutY="61.0" prefHeight="928.0" prefWidth="1462.0" translateX="-10.0" translateY="-8.0">
+         <content>
+            <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="1224.0" prefWidth="1459.0" style="-fx-background-color: #000000;">
                <children>
-                  <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
-                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+                  <AnchorPane id="AnchorPane" layoutX="2.0" layoutY="1.0" prefHeight="1201.0" prefWidth="237.0" style="-fx-background-color: #212121;">
+                     <children>
+                        <Pane layoutY="14.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #303030;">
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../image/home.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" />
+                           </children>
+                        </Pane>
+                        <Pane layoutY="54.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Explore" />
+                              <ImageView layoutX="14.0" layoutY="9.0">
+                                 <image>
+                                    <Image url="@../../../../image/explore.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="94.0">
+                           <children>
+                              <Pane prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                                 <children>
+                                    <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subscriptions" />
+                                    <ImageView layoutX="14.0" layoutY="8.0">
+                                       <image>
+                                          <Image url="@../../../../image/subscriptions.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="-0.5" layoutY="145.5">
+                           <children>
+                              <Line endX="100.0" layoutX="120.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+                           </children>
+                        </Pane>
+                        <Pane layoutY="158.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Library" />
+                              <ImageView layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../../image/library.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="198.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="History" />
+                              <ImageView layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../../image/history.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="238.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Videos" />
+                              <ImageView layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../../image/yourVideos.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="278.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Watch Later" />
+                              <ImageView layoutX="13.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../../image/watchLater.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="318.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lked Videos" />
+                              <ImageView layoutX="14.0" layoutY="7.0">
+                                 <image>
+                                    <Image url="@../../../../image/liked.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="358.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Show more" />
+                              <ImageView layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../image/arrowBottom.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Line endX="100.0" layoutX="121.0" layoutY="410.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+                        <Pane layoutY="447.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                              <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="487.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alan Cooper" />
+                              <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="527.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
+                              <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="12.0" layoutY="10.0">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="567.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alexis Sears" />
+                              <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="605.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anna White" />
+                              <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="647.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Show 10 more" />
+                              <ImageView layoutX="15.0" layoutY="9.0">
+                                 <image>
+                                    <Image url="@../../../image/arrowBottom.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Text fill="#f8f7f7" layoutX="14.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUBSCRIPTIONS">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Line endX="100.0" layoutX="121.0" layoutY="700.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+                        <Pane layoutY="777.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gaming" />
+                              <ImageView layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../../image/gaming.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="817.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Live" />
+                              <ImageView layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../../image/live.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Text fill="#f8f7f7" layoutX="14.0" layoutY="724.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MORE FROM YOUTUBE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Pane layoutY="857.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sports" />
+                              <ImageView layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../../image/sports.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Line endX="100.0" layoutX="121.0" layoutY="909.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+                        <Pane layoutY="923.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings" />
+                              <ImageView layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../../image/settings.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="957.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Report history" />
+                              <ImageView layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../../image/report.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="994.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help" />
+                              <ImageView layoutX="11.0" layoutY="10.0">
+                                 <image>
+                                    <Image url="@../../../../image/help.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="1028.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send feedback" />
+                              <Line endX="100.0" layoutX="118.0" layoutY="52.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+                              <ImageView layoutX="14.0" layoutY="8.0">
+                                 <image>
+                                    <Image url="@../../../../image/feedback.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Text fill="WHITE" layoutX="19.0" layoutY="1103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About" />
+                        <Text fill="WHITE" layoutX="66.0" layoutY="1103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press" />
+                        <Text fill="WHITE" layoutX="112.0" layoutY="1103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Copyright" />
+                        <Text fill="WHITE" layoutX="19.0" layoutY="1127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact us" />
+                        <Text fill="WHITE" layoutX="91.0" layoutY="1127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creators" />
+                        <Text fill="WHITE" layoutX="19.0" layoutY="1151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Terms" />
+                        <Text fill="WHITE" layoutX="64.0" layoutY="1151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Privacy" />
+                        <Text fill="WHITE" layoutX="118.0" layoutY="1151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Policy &amp; Safety" />
+                        <Text fill="WHITE" layoutX="18.0" layoutY="1182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© 2021 Google LLC" />
+                        <JFXButton layoutX="-86.0" layoutY="744.0" onAction="#btnTrending" prefHeight="33.0" prefWidth="302.0" text="Trending" textFill="#fffbfb">
+                           <graphic>
+                              <ImageView translateX="-13.0">
+                                 <image>
+                                    <Image url="@../../../../image/premium.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="376.0" layoutY="20.0">
                      <image>
-                        <Image url="@../../../image/User-Avatar.png" />
+                        <Image url="@../../../../image/sports-fill.png" />
                      </image>
                   </ImageView>
+                  <Text fill="WHITE" layoutX="495.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trending">
+                     <font>
+                        <Font size="31.0" />
+                     </font>
+                  </Text>
+                  <TabPane layoutX="306.0" layoutY="113.0" prefHeight="1469.0" prefWidth="1145.0" style="-fx-background-color: ;" styleClass="tab-header-background" stylesheets="@style.css" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab styleClass="item1" text="New">
+                           <content>
+                              <Pane prefHeight="1438.0" prefWidth="1163.0" style="-fx-background-color: #000000;">
+                                 <children>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="38.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="223.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="260.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="227.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="227.0" layoutY="78.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="38.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="223.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="260.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="227.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="227.0" layoutY="194.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="37.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="222.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="259.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="226.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="226.0" layoutY="311.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="37.0" layoutY="382.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="222.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="259.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="226.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="226.0" layoutY="427.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="38.0" layoutY="502.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="223.0" layoutY="517.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="260.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="227.0" layoutY="593.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="227.0" layoutY="547.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="38.0" layoutY="618.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="223.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="260.0" layoutY="679.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="225.0" layoutY="709.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="227.0" layoutY="663.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="37.0" layoutY="735.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="222.0" layoutY="750.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="259.0" layoutY="796.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="226.0" layoutY="822.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="226.0" layoutY="780.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="37.0" layoutY="851.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="222.0" layoutY="866.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="259.0" layoutY="912.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="226.0" layoutY="938.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="226.0" layoutY="896.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children></Pane>
+                           </content></Tab>
+                        <Tab styleClass="item1" text="Music">
+                           <content>
+                              <Pane prefHeight="1438.0" prefWidth="1163.0" style="-fx-background-color: #000000;">
+                                 <children>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="38.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="223.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="260.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="227.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="227.0" layoutY="78.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="38.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="223.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="260.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="227.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="227.0" layoutY="194.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="37.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="222.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="259.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="226.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="226.0" layoutY="311.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="37.0" layoutY="382.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="222.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="259.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="226.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="226.0" layoutY="427.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="38.0" layoutY="502.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="223.0" layoutY="517.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="260.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="227.0" layoutY="593.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="227.0" layoutY="547.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="38.0" layoutY="618.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="223.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="260.0" layoutY="679.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="225.0" layoutY="709.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="227.0" layoutY="663.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="37.0" layoutY="735.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="222.0" layoutY="750.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="259.0" layoutY="796.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="226.0" layoutY="822.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="226.0" layoutY="780.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="37.0" layoutY="851.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="222.0" layoutY="866.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="259.0" layoutY="912.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="226.0" layoutY="938.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="226.0" layoutY="896.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                           </content>
+                        </Tab>
+                        <Tab styleClass="item1" text="Education">
+                           <content>
+                              <Pane prefHeight="1438.0" prefWidth="1163.0" style="-fx-background-color: #000000;">
+                                 <children>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="38.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="223.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="260.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="227.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="227.0" layoutY="78.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="38.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="223.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="260.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="227.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="227.0" layoutY="194.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="37.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="222.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="259.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="226.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="226.0" layoutY="311.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="37.0" layoutY="382.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="222.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="259.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="226.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="226.0" layoutY="427.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="38.0" layoutY="502.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="223.0" layoutY="517.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="260.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="227.0" layoutY="593.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="227.0" layoutY="547.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="38.0" layoutY="618.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="223.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="260.0" layoutY="679.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="225.0" layoutY="709.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="227.0" layoutY="663.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="37.0" layoutY="735.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="222.0" layoutY="750.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="259.0" layoutY="796.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="226.0" layoutY="822.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="226.0" layoutY="780.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="94.0" fitWidth="168.0" layoutX="37.0" layoutY="851.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../image/youtube.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="222.0" layoutY="866.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ep 6: Living to Serve | SEARCH ON" wrappingWidth="240.26690673828125">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="259.0" layoutY="912.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse" />
+                                    <Text fill="WHITE" layoutX="226.0" layoutY="938.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1M views . 3 years ago" />
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="226.0" layoutY="896.0">
+                                       <image>
+                                          <Image url="@../../../image/User-Avatar.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                           </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+                  <Line endX="1110.0001220703125" layoutX="333.0" layoutY="146.0" startX="-94.0" stroke="WHITE" />
                </children>
             </Pane>
-            <Pane layoutY="68.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-               <children>
-                  <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alan Cooper" />
-                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-                     <image>
-                        <Image url="@../../../image/User-Avatar.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Pane>
-            <Pane layoutY="108.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-               <children>
-                  <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
-                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-                     <image>
-                        <Image url="@../../../image/User-Avatar.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Pane>
-            <Pane layoutY="148.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-               <children>
-                  <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alexis Sears" />
-                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-                     <image>
-                        <Image url="@../../../image/User-Avatar.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Pane>
-            <Pane layoutY="188.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-               <children>
-                  <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anna White" />
-                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-                     <image>
-                        <Image url="@../../../image/User-Avatar.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Pane>
-            <Pane layoutY="228.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-               <children>
-                  <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Show 10 more" />
-                  <ImageView layoutX="15.0" layoutY="9.0">
-                     <image>
-                        <Image url="@../../../image/arrowBottom.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Pane>
-            <Text fill="#f8f7f7" layoutX="18.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUBSCRIPTIONS">
-               <font>
-                  <Font name="System Bold" size="14.0" />
-               </font>
-            </Text>
-            <Line endX="100.0" layoutX="119.0" layoutY="267.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
-            <Text fill="#f8f7f7" layoutX="15.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EXPLORE">
-               <font>
-                  <Font name="System Bold" size="14.0" />
-               </font>
-            </Text>
-            <Pane layoutX="1.0" layoutY="306.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #303030;">
-               <children>
-                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-                     <image>
-                        <Image url="@../../../image/fire-alt-solid.png" />
-                     </image>
-                  </ImageView>
-                  <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" />
-               </children>
-            </Pane>
-            <Pane layoutY="353.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-               <children>
-                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-                     <image>
-                        <Image url="@../../../image/music-solid.png" />
-                     </image>
-                  </ImageView>
-                  <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="music" />
-               </children>
-            </Pane>
-            <Pane layoutY="402.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-               <children>
-                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-                     <image>
-                        <Image url="@../../../image/gaming.png" />
-                     </image>
-                  </ImageView>
-                  <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="games" />
-               </children>
-            </Pane>
-            <Pane layoutX="1.0" layoutY="448.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-               <children>
-                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-                     <image>
-                        <Image url="@../../../image/sports.png" />
-                     </image>
-                  </ImageView>
-                  <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sports" />
-               </children>
-            </Pane>
-            <Line endX="100.0" layoutX="122.0" layoutY="267.0" startX="-122.50000762939453" startY="-0.5" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
-            <Pane layoutX="1.0" layoutY="765.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-               <children>
-                  <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings" />
-                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-                     <image>
-                        <Image url="@../../../image/settings.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Pane>
-            <Pane layoutX="1.0" layoutY="799.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-               <children>
-                  <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Report history" />
-                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-                     <image>
-                        <Image url="@../../../image/report.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Pane>
-            <Pane layoutX="1.0" layoutY="836.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-               <children>
-                  <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help" />
-                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-                     <image>
-                        <Image url="@../../../image/help.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Pane>
-            <Pane layoutX="1.0" layoutY="870.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-               <children>
-                  <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send feedback" />
-                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-                     <image>
-                        <Image url="@../../../image/feedback.png" />
-                     </image>
-                  </ImageView>
-                  <Line endX="100.0" layoutX="118.0" layoutY="52.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
-               </children>
-            </Pane>
-            <Text fill="WHITE" layoutX="14.0" layoutY="951.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About" />
-            <Text fill="WHITE" layoutX="65.0" layoutY="951.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press" />
-            <Text fill="WHITE" layoutX="112.0" layoutY="950.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Copyright" />
-            <Text fill="WHITE" layoutX="13.0" layoutY="975.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact us" />
-            <Text fill="WHITE" layoutX="86.0" layoutY="977.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creators" />
-            <Text fill="WHITE" layoutX="14.0" layoutY="997.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Terms" />
-            <Text fill="WHITE" layoutX="59.0" layoutY="998.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Privacy" />
-            <Text fill="WHITE" layoutX="111.0" layoutY="997.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Policy &amp; Safety" />
-            <Text fill="WHITE" layoutX="10.0" layoutY="1024.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© 2021 Google LLC" />
-         </children>
-      </AnchorPane>
-      <Line endX="100.0" layoutX="121.0" layoutY="600.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
-      <Pane layoutY="639.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-         <children>
-            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Youtube Premium" />
-            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-               <image>
-                  <Image url="@../../../image/User-Avatar.png" />
-               </image>
-            </ImageView>
-         </children>
-      </Pane>
-      <Pane layoutY="679.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-         <children>
-            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gaming" />
-            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-               <image>
-                  <Image url="@../../../image/User-Avatar.png" />
-               </image>
-            </ImageView>
-         </children>
-      </Pane>
-      <Pane layoutY="719.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-         <children>
-            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Live" />
-            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-               <image>
-                  <Image url="@../../../image/User-Avatar.png" />
-               </image>
-            </ImageView>
-         </children>
-      </Pane>
-      <Text fill="#f8f7f7" layoutX="14.0" layoutY="626.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MORE FROM YOUTUBE">
-         <font>
-            <Font name="System Bold" size="14.0" />
-         </font>
-      </Text>
-      <Pane layoutY="759.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-         <children>
-            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sports" />
-            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-               <image>
-                  <Image url="@../../../image/User-Avatar.png" />
-               </image>
-            </ImageView>
-         </children>
-      </Pane>
-      <Line endX="100.0" layoutX="121.0" layoutY="816.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
-      <Pane layoutX="1.0" layoutY="554.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
-         <children>
-            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="8.0">
-               <image>
-                  <Image url="@../../../image/newspaper-regular.png" />
-               </image>
-            </ImageView>
-            <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="news" />
-         </children>
-      </Pane>
-      <Line endX="100.0" layoutX="122.0" layoutY="600.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+         </content>
+      </ScrollPane>
    </children>
 </AnchorPane>

@@ -1,3 +1,9 @@
 .fieldTextSearch{
     -fx-text-inner-color:#fff;
 }
+.tab-header-background{
+    -fx-background-color: #000000;
+}
+.tab-header-background .item1{
+    -fx-color:#fff;
+}

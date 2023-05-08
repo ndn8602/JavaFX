@@ -3,16 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
-            <file>file:/D:/ADownload/BT/ThietKeGiaoDien/JavaFX/src/test/GUI/components/VideoPlayer.fxml</file>
-            <file>file:/D:/ADownload/BT/ThietKeGiaoDien/JavaFX/src/test/GUI/components/Video-Desc.fxml</file>
-            <file>file:/D:/ADownload/BT/ThietKeGiaoDien/JavaFX/src/test/GUI/components/Video.fxml</file>
-            <file>file:/D:/ADownload/BT/ThietKeGiaoDien/JavaFX/src/test/GUI/screens/Channel.fxml</file>
-            <file>file:/D:/ADownload/BT/ThietKeGiaoDien/JavaFX/src/image/Thumbnail-Images.png</file>
-=======
+            <file>file:/Users/nhamnguyenduc/JavaFX/src/test/GUI/screens/Home.fxml</file>
+            <file>file:/Users/nhamnguyenduc/JavaFX/src/test/GUI/components/sidebar.fxml</file>
             <file>file:/Users/nhamnguyenduc/JavaFX/src/test/GUI/components/Navigations.fxml</file>
-            <file>file:/Users/nhamnguyenduc/JavaFX/src/test/GUI/components/Sidebar.fxml</file>
->>>>>>> 1e03f26e22651a9a3e02ad9ec976bb7053492493
+            <file>file:/Users/nhamnguyenduc/JavaFX/src/test/GUI/components/Button.fxml</file>
+            <file>file:/Users/nhamnguyenduc/JavaFX/src/test/GUI/screens/HomeController.java</file>
+            <file>file:/Users/nhamnguyenduc/JavaFX/src/test/GUI/screens/style.css</file>
+            <file>file:/Users/nhamnguyenduc/JavaFX/src/test/GUI/screens/SwitchController.java</file>
+            <file>file:/Users/nhamnguyenduc/JavaFX/src/test/GUI/screens/Test.java</file>
         </group>
     </open-files>
 </project-private>

@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" fx:id="homeScene" prefHeight="995.0" prefWidth="1466.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" fx:id="homeScene" prefHeight="995.0" prefWidth="1466.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.GUI.screens.HomeController">
    <children>
       <AnchorPane id="AnchorPane" layoutY="-1.0" prefHeight="57.0" prefWidth="1466.0" style="-fx-background-color: #212121;" translateY="1.0">
          <children>
@@ -41,7 +41,7 @@
                         </ImageView>
                      </children>
                   </Pane>
-                  <TextField accessibleText=" " prefHeight="44.0" prefWidth="362.0" promptText="Search..." style="-fx-background-color: #212121; -fx-border-width: 1; -fx-border-color: #777777;" styleClass="fieldTextSearch" stylesheets="@style.css">
+                  <TextField accessibleText=" " prefHeight="44.0" prefWidth="362.0" promptText="Search..." style="-fx-background-color: #212121;" styleClass="fieldTextSearch" stylesheets="@style.css">
                      <font>
                         <Font size="16.0" />
                      </font>
@@ -787,7 +787,7 @@
                         </AnchorPane>
                      </children>
                   </Pane>
-                  <AnchorPane id="AnchorPane" layoutX="2.0" layoutY="1.0" prefHeight="1201.0" prefWidth="237.0" style="-fx-background-color: #212121;">
+                  <AnchorPane id="AnchorPane" layoutX="2.0" layoutY="1.0" prefHeight="1201.0" prefWidth="230.0" style="-fx-background-color: #212121;">
                      <children>
                         <Pane layoutY="14.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #303030;">
                            <children>
@@ -825,7 +825,7 @@
                         </Pane>
                         <Pane layoutX="-0.5" layoutY="145.5">
                            <children>
-                              <Line endX="100.0" layoutX="120.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
+                              <Line endX="100.0" startX="-119.0" stroke="WHITE" strokeMiterLimit="1.0" strokeWidth="0.5" />
                            </children>
                         </Pane>
                         <Pane layoutY="158.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
@@ -912,11 +912,6 @@
                         <Pane layoutY="527.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
                            <children>
                               <Text fill="#f2f2f2" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" />
-                              <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="12.0" layoutY="10.0">
-                                 <image>
-                                    <Image url="@../../../image/User-Avatar.png" />
-                                 </image>
-                              </ImageView>
                            </children>
                         </Pane>
                         <Pane layoutY="567.0" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: #212121;">
@@ -1041,7 +1036,7 @@
                         <Text fill="WHITE" layoutX="64.0" layoutY="1151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Privacy" />
                         <Text fill="WHITE" layoutX="118.0" layoutY="1151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Policy &amp; Safety" />
                         <Text fill="WHITE" layoutX="18.0" layoutY="1182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© 2021 Google LLC" />
-                        <JFXButton layoutX="-86.0" layoutY="744.0" onAction="#btnTrending" prefHeight="33.0" prefWidth="302.0" text="Trending" textFill="#fffbfb">
+                        <JFXButton layoutX="-93.0" layoutY="744.0" onAction="#btnTrending" prefHeight="33.0" prefWidth="302.0" textFill="#fffbfb">
                            <graphic>
                               <ImageView translateX="-13.0">
                                  <image>
@@ -1052,7 +1047,7 @@
                         </JFXButton>
                      </children>
                   </AnchorPane>
-                  <Pane layoutX="587.0" layoutY="39.0" prefHeight="53.0" prefWidth="1206.0" style="-fx-background-color: #212121;" translateX="-350.0" translateY="-38.0">
+                  <Pane layoutX="588.0" layoutY="37.0" prefHeight="53.0" prefWidth="1206.0" style="-fx-background-color: #212121;" translateX="-350.0" translateY="-38.0">
                      <children>
                         <Pane layoutX="27.0" layoutY="9.0" prefHeight="32.0" prefWidth="40.0" style="-fx-background-color: #fff; -fx-background-radius: 9999;">
                            <children>
@@ -1134,7 +1129,7 @@
                               <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item" />
                            </children>
                         </Pane>
-                        <Pane layoutX="1150.0" layoutY="5.0" prefHeight="48.0" prefWidth="56.0" style="-fx-background-color: rgba(33, 33, 33, 0.9);">
+                        <Pane layoutX="1150.0" layoutY="4.0" prefHeight="48.0" prefWidth="56.0" style="-fx-background-color: rgba(33, 33, 33, 0.9);">
                            <children>
                               <ImageView layoutX="16.0" layoutY="11.0" nodeOrientation="RIGHT_TO_LEFT" style="-fx-rotate: 270;">
                                  <image>

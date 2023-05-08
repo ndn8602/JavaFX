@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="968.0" prefWidth="664.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="20.0" layoutY="38.0" x="628.0" y="910.0">
+         <image>
+            <Image url="@../../../image/ico-info.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="14.0" prefHeight="968.0" prefWidth="664.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="360.0" fitWidth="640.0" layoutX="24.0" layoutY="24.0">
+               <image>
+                  <Image url="@../../../image/image.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="628.0" layoutY="38.0">
+               <image>
+                  <Image url="@../../../image/ico-info.png" />
+               </image>
+            </ImageView>
+            <Text fill="#faf7f7" layoutX="37.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blind Woodturner: Turning passion into fine art" wrappingWidth="526.8937301635742">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="3.0" fitWidth="616.0" layoutX="36.0" layoutY="345.0">
+               <image>
+                  <Image url="@../../../image/full.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="3.0" fitWidth="314.0" layoutX="30.0" layoutY="345.0">
+               <image>
+                  <Image url="@../../../image/loaded.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="3.0" fitWidth="210.0" layoutX="30.0" layoutY="345.0">
+               <image>
+                  <Image url="@../../../image/played.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="16.0" fitWidth="13.0" layoutX="53.0" layoutY="358.0">
+               <image>
+                  <Image url="@../../../image/ico-play.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="171.0" layoutY="499.0">
+               <image>
+                  <Image url="@../../../image/path.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="142.0" layoutY="513.0">
+               <image>
+                  <Image url="@../../../image/path.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="12.0" fitWidth="2.0" layoutX="104.0" layoutY="568.0">
+               <image>
+                  <Image url="@../../../image/path.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="12.0" fitWidth="8.0" layoutX="94.0" layoutY="360.0">
+               <image>
+                  <Image url="@../../../image/ico-play.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="12.0" fitWidth="2.0" layoutX="104.0" layoutY="360.0">
+               <image>
+                  <Image url="@../../../image/path.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="622.0" layoutX="30.0" layoutY="345.0">
+               <image>
+                  <Image url="@../../../image/bottom%20controls.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="155.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text fill="WHITE" layoutX="158.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5:07 / 15:28" wrappingWidth="74.80780029296875">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="24.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blind Woodturner: Turning passion into fine art" wrappingWidth="526.8937301635742">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#aaaaaa" layoutX="24.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="576,969 views . Oct 8, 2021" wrappingWidth="178.89371490478516">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="17.0" fitWidth="18.0" layoutX="299.0" layoutY="442.0">
+               <image>
+                  <Image url="@../../../image/Vector.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="326.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.7 K" wrappingWidth="54.093666076660156">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="17.0" fitWidth="18.0" layoutX="382.0" layoutY="442.0">
+               <image>
+                  <Image url="@../../../image/Vector1.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="409.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="662" wrappingWidth="54.093666076660156">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="18.0" fitWidth="20.0" layoutX="456.0" layoutY="442.0">
+               <image>
+                  <Image url="@../../../image/Vector2.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="485.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SHARE" wrappingWidth="54.093666076660156">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="10.0" fitWidth="20.0" layoutX="551.0" layoutY="445.0">
+               <image>
+                  <Image url="@../../../image/Vector3.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="581.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SAVE" wrappingWidth="54.093666076660156">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="3.0" fitWidth="15.0" layoutX="638.5" layoutY="448.5">
+               <image>
+                  <Image url="@../../../image/Vector4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="24.0" layoutY="495.0">
+               <image>
+                  <Image url="@../../../image/User-Avatar.png" />
+               </image>
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </ImageView>
+            <Text fill="WHITE" layoutX="88.0" layoutY="518.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin" wrappingWidth="86.8936538696289">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#aaaaaa" layoutX="87.0" layoutY="536.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.2M subscribers" wrappingWidth="122.8936538696289" />
+            <Text fill="WHITE" layoutX="88.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chris Fisher, also known as the Blind Woodturner, learned his craft by listening to hundreds of hours of YouTube videos and experimenting in his workshop. Now he’s a YouTube creator himself, sells his products worldwide, and does demonstrations all around the country." wrappingWidth="576.4936447143555">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="36.0" fitWidth="116.0" layoutX="544.0" layoutY="502.0">
+               <image>
+                  <Image url="@../../../image/Subscribes-Btn.png" />
+               </image>
+            </ImageView>
+            <Text fill="#aaaaaa" layoutX="87.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SHOW MORE" wrappingWidth="122.8936538696289" />
+            <ImageView fitHeight="1.0" fitWidth="640.0" layoutX="24.0" layoutY="644.0">
+               <image>
+                  <Image url="@../../../image/Border.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="24.0" layoutY="688.0" strokeType="OUTSIDE" strokeWidth="0.0" text="286 Comments" wrappingWidth="116.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="162.0" layoutY="669.0">
+               <image>
+                  <Image url="@../../../image/Dropdown.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="194.0" layoutY="686.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SORT BY" wrappingWidth="54.093666076660156">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="24.0" layoutY="717.0">
+               <image>
+                  <Image url="@../../../image/User-Avatar%20(1).png" />
+               </image>
+            </ImageView>
+            <Text fill="#aaaaaa" layoutX="80.0" layoutY="737.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add a public comment..." wrappingWidth="164.4936294555664">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="1.0" fitWidth="584.0" layoutX="80.0" layoutY="748.0">
+               <image>
+                  <Image url="@../../../image/Border.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="24.0" layoutY="789.0">
+               <image>
+                  <Image url="@../../../image/User-Avatar%20(2).png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="80.0" layoutY="804.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Gouse " wrappingWidth="86.8936538696289">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text fill="#aaaaaa" layoutX="160.0" layoutY="805.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" 8 hours ago" wrappingWidth="122.8936538696289" />
+            <Text fill="WHITE" layoutX="80.0" layoutY="824.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wow, world is full of different skills " wrappingWidth="230.8936538696289">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="24.0" layoutY="889.0">
+               <image>
+                  <Image url="@../../../image/User-Avatar%20(3).png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="80.0" layoutY="903.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alan Cooper" wrappingWidth="86.8936538696289">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text fill="#aaaaaa" layoutX="160.0" layoutY="903.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4 days ago" wrappingWidth="122.8936538696289" />
+            <Text fill="WHITE" layoutX="79.0" layoutY="926.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Can you provide?" wrappingWidth="230.8936538696289">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="78.0" layoutY="966.0" strokeType="OUTSIDE" strokeWidth="0.0" text="On January 2, 2022" wrappingWidth="230.8936538696289">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="17.0" fitWidth="18.0" layoutX="90.0" layoutY="850.67">
+               <image>
+                  <Image url="@../../../image/Vector.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="17.0" fitWidth="18.0" layoutX="137.0" layoutY="850.67">
+               <image>
+                  <Image url="@../../../image/Vector1.png" />
+               </image>
+            </ImageView>
+            <Text fill="#aaaaaa" layoutX="117.0" layoutY="864.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" wrappingWidth="24.0" />
+            <Text fill="#aaaaaa" layoutX="171.0" layoutY="863.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REPLY" wrappingWidth="48.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

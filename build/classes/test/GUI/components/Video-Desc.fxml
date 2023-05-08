@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="166.0" prefWidth="640.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane id="Video-Desc" prefHeight="165.0" prefWidth="640.0">
+         <children>
+            <Pane prefHeight="67.0" prefWidth="640.0">
+               <children>
+                  <Pane layoutY="16.0" prefHeight="51.0" prefWidth="640.0">
+                     <children>
+                        <Pane layoutX="-2.0" layoutY="-1.0" prefHeight="51.0" prefWidth="64.0">
+                           <children>
+                              <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="6.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../image/User-Avatar(Video-Desc).png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="64.0" prefHeight="51.0" prefWidth="93.0">
+                           <children>
+                              <Text fill="WHITE" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcus Levin">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#aaaaaa" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.2M subscribers" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="516.0" prefHeight="51.0" prefWidth="124.0">
+                           <children>
+                              <Pane layoutX="4.0" layoutY="7.0" prefHeight="36.0" prefWidth="116.0" style="-fx-background-color: #CC0000;">
+                                 <children>
+                                    <Text fill="WHITE" layoutX="15.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subscribes">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="67.0" prefHeight="60.0" prefWidth="640.0">
+                     <children>
+                        <Text fill="WHITE" layoutX="65.0" layoutY="21.0" text="Chris Fisher, also known as the Blind Woodturner, learned his craft by listening to hundreds of hours of YouTube videos and experimenting in his workshop. Now he’s a YouTube creator himself, sells his products worldwide, and does demonstrations all around the country." wrappingWidth="572.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="127.0" prefHeight="22.0" prefWidth="640.0">
+                     <children>
+                        <Text fill="#aaaaaa" layoutX="65.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SHOW MORE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutY="165.0" prefHeight="1.0" prefWidth="640.0" />
+   </children>
+</AnchorPane>
